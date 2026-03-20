@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Crypto market structure stack">
-  <rect width="980" height="620" fill="#ffffff" />
-  <rect x="52" y="56" width="876" height="508" rx="24" fill="#ffffff" stroke="#d9d9d9" stroke-width="3" />
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
   <text x="88" y="118" fill="#1b1b1b" font-family="Georgia, serif" font-size="34" font-weight="700">Crypto Risk Stack for Beginners</text>
   <text x="88" y="154" fill="#665f57" font-family="Arial, sans-serif" font-size="20">A simple spot trade still sits inside venue, transfer, and leverage-driven market structure.</text>
 
   <g font-family="Arial, sans-serif" text-anchor="middle">
-    <rect x="170" y="410" width="640" height="74" rx="18" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2.5" />
+    <rect x="170" y="410" width="640" height="74" rx="18" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
     <text x="490" y="446" fill="#2a2014" font-size="22" font-weight="700">Spot exposure</text>
     <text x="490" y="470" fill="#5e5448" font-size="17">what most new traders think they are trading</text>
 
-    <rect x="206" y="328" width="568" height="68" rx="18" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2.5" />
+    <rect x="206" y="328" width="568" height="68" rx="18" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
     <text x="490" y="360" fill="#5e5448" font-size="20">Venue quality, fees,</text>
     <text x="490" y="384" fill="#5e5448" font-size="20">and order-book depth</text>
 
-    <rect x="242" y="248" width="496" height="72" rx="18" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2.5" />
+    <rect x="242" y="248" width="496" height="72" rx="18" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
     <text x="490" y="280" fill="#5e5448" font-size="19">Transfer timing, stablecoin rails,</text>
     <text x="490" y="304" fill="#5e5448" font-size="19">and operational friction</text>
 
-    <rect x="278" y="170" width="424" height="64" rx="18" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2.5" />
+    <rect x="278" y="170" width="424" height="64" rx="18" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
     <text x="490" y="198" fill="#5e5448" font-size="18">Leverage, liquidations,</text>
     <text x="490" y="220" fill="#5e5448" font-size="18">and narrative crowding</text>
   </g>

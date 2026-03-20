@@ -1,30 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Position sizing flow">
-  <rect width="980" height="620" fill="#ffffff" />
-  <rect x="52" y="56" width="876" height="508" rx="24" fill="#ffffff" stroke="#d9d9d9" stroke-width="3" />
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
   <text x="88" y="118" fill="#1c1c1c" font-family="Georgia, serif" font-size="34" font-weight="700">Position Sizing Flow</text>
   <text x="88" y="154" fill="#6c645b" font-family="Arial, sans-serif" font-size="20">A beginner should decide acceptable loss first and size the trade second.</text>
 
   <g font-family="Arial, sans-serif" text-anchor="middle">
-    <rect x="104" y="248" width="168" height="110" rx="22" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <rect x="98" y="248" width="176" height="110" rx="22" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
     <text x="188" y="292" fill="#2a2014" font-size="22" font-weight="700">Step 1</text>
     <text x="188" y="326" fill="#5e5448" font-size="18">Set dollar risk</text>
 
-    <rect x="312" y="248" width="168" height="110" rx="22" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <rect x="306" y="248" width="176" height="110" rx="22" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
     <text x="396" y="292" fill="#2a2014" font-size="22" font-weight="700">Step 2</text>
     <text x="396" y="326" fill="#5e5448" font-size="18">Define stop distance</text>
 
-    <rect x="520" y="248" width="168" height="110" rx="22" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <rect x="514" y="248" width="176" height="110" rx="22" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
     <text x="604" y="292" fill="#2a2014" font-size="22" font-weight="700">Step 3</text>
     <text x="604" y="326" fill="#5e5448" font-size="18">Calculate size</text>
 
-    <rect x="728" y="248" width="168" height="110" rx="22" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <rect x="722" y="248" width="176" height="110" rx="22" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
     <text x="812" y="292" fill="#2a2014" font-size="22" font-weight="700">Step 4</text>
-    <text x="812" y="326" fill="#5e5448" font-size="18">Trade only if it fits</text>
+    <text x="812" y="318" fill="#5e5448" font-size="17">Trade only</text>
+    <text x="812" y="342" fill="#5e5448" font-size="17">if it fits</text>
   </g>
 
-  <path d="M272 304H312M480 304H520M688 304H728" stroke="#b79156" stroke-width="6" stroke-linecap="round" />
+  <path d="M274 304H306M482 304H514M690 304H722" stroke="#b79156" stroke-width="6" stroke-linecap="round" />
 
-  <rect x="112" y="426" width="784" height="64" rx="16" fill="#f6f6f6" stroke="#d9d9d9" />
+  <rect x="112" y="426" width="784" height="64" rx="16" fill="#f3ebdb" stroke="#d8ccb8" />
   <text x="144" y="454" fill="#5f5648" font-family="Arial, sans-serif" font-size="16">If the stop is wide, size should shrink. If the product is fast, size should shrink.</text>
   <text x="144" y="476" fill="#5f5648" font-family="Arial, sans-serif" font-size="16">If the market is unclear, size may need to fall to zero.</text>
 </svg>

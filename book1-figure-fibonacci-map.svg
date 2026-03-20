@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Fibonacci retracement and extension map">
-  <rect width="980" height="620" fill="#ffffff" />
-  <rect x="52" y="56" width="876" height="508" rx="24" fill="#ffffff" stroke="#d9d9d9" stroke-width="3" />
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
   <text x="88" y="118" fill="#1c1c1c" font-family="Georgia, serif" font-size="34" font-weight="700">Fibonacci Map</text>
   <text x="88" y="154" fill="#6c645a" font-family="Arial, sans-serif" font-size="19">Retracements describe pullback depth.</text>
   <text x="88" y="178" fill="#6c645a" font-family="Arial, sans-serif" font-size="19">Extensions project where the next leg may reach.</text>
@@ -16,13 +16,13 @@
     <text x="838" y="326" fill="#5e5448" font-size="17">50%</text>
     <text x="838" y="386" fill="#5e5448" font-size="17">61.8%</text>
     <text x="838" y="446" fill="#5e5448" font-size="17">100%</text>
-    <rect x="684" y="142" width="140" height="38" rx="12" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2" />
+    <rect x="684" y="142" width="140" height="38" rx="12" fill="#f7efe0" stroke="#d4c19e" stroke-width="2" />
     <text x="700" y="167" fill="#b79156" font-size="15.5">Extension zone</text>
-    <rect x="472" y="292" width="198" height="38" rx="12" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2" />
+    <rect x="472" y="292" width="198" height="38" rx="12" fill="#f7efe0" stroke="#d4c19e" stroke-width="2" />
     <text x="490" y="317" fill="#b79156" font-size="15.5">Pullback retracement</text>
   </g>
 
-  <rect x="120" y="482" width="760" height="54" rx="14" fill="#f6f6f6" stroke="#d9d9d9" />
+  <rect x="120" y="482" width="760" height="54" rx="14" fill="#f3ebdb" stroke="#d8ccb8" />
   <text x="146" y="506" fill="#5f5648" font-family="Arial, sans-serif" font-size="15.5">Use Fibonacci as a measuring tool, not as a substitute</text>
   <text x="146" y="526" fill="#5f5648" font-family="Arial, sans-serif" font-size="15.5">for structure, confirmation, or invalidation.</text>
 </svg>

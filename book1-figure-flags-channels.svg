@@ -1,28 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Flags and channels">
-  <rect width="980" height="620" fill="#ffffff" />
-  <rect x="52" y="56" width="876" height="508" rx="24" fill="#ffffff" stroke="#d9d9d9" stroke-width="3" />
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
   <text x="88" y="118" fill="#1c1c1c" font-family="Georgia, serif" font-size="34" font-weight="700">Flags, Pennants, and Channels</text>
   <text x="88" y="154" fill="#6c645a" font-family="Arial, sans-serif" font-size="20">Continuation patterns try to describe orderly pauses, not automatic trend guarantees.</text>
 
   <g font-family="Arial, sans-serif" text-anchor="middle">
-    <rect x="104" y="220" width="240" height="220" rx="20" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2.5" />
+    <rect x="104" y="220" width="240" height="220" rx="20" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
     <path d="M132 388 182 338 232 286 282 240" fill="none" stroke="#2f5260" stroke-width="5" />
     <path d="M216 264 304 284" fill="none" stroke="#b79156" stroke-width="4" />
     <path d="M208 308 296 328" fill="none" stroke="#b79156" stroke-width="4" />
     <text x="224" y="414" fill="#5e5448" font-size="20">Flag</text>
 
-    <rect x="370" y="220" width="240" height="220" rx="20" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2.5" />
+    <rect x="370" y="220" width="240" height="220" rx="20" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
     <path d="M398 388 448 342 498 294 548 248" fill="none" stroke="#2f5260" stroke-width="5" />
     <path d="M500 272 564 300 508 330" fill="none" stroke="#b79156" stroke-width="4" />
     <text x="490" y="414" fill="#5e5448" font-size="20">Pennant</text>
 
-    <rect x="636" y="220" width="240" height="220" rx="20" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2.5" />
+    <rect x="636" y="220" width="240" height="220" rx="20" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
     <path d="M664 366 714 336 764 308 814 278" fill="none" stroke="#2f5260" stroke-width="5" />
     <path d="M676 250 826 220" fill="none" stroke="#b79156" stroke-width="4" />
     <path d="M676 332 826 302" fill="none" stroke="#b79156" stroke-width="4" />
     <text x="756" y="414" fill="#5e5448" font-size="20">Channel</text>
   </g>
 
-  <rect x="104" y="482" width="772" height="40" rx="14" fill="#f6f6f6" stroke="#d9d9d9" />
+  <rect x="104" y="482" width="772" height="40" rx="14" fill="#f3ebdb" stroke="#d8ccb8" />
   <text x="132" y="508" fill="#5f5648" font-family="Arial, sans-serif" font-size="17">The pause only matters if the breakout or breakdown can still be managed with clear invalidation.</text>
 </svg>

@@ -21,8 +21,8 @@
   <rect x="62" y="62" width="736" height="1096" rx="26" fill="none" stroke="#273342" stroke-width="2.5" />
   <path d="M130 170H730" stroke="#b79255" stroke-width="6" stroke-linecap="round" />
   <path d="M130 990H730" stroke="#b79255" stroke-width="6" stroke-linecap="round" />
-  <rect x="118" y="110" width="186" height="40" rx="18" fill="#151d27" stroke="#334455" stroke-width="2" />
-  <text x="151" y="136" fill="#f0d3a0" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">FULL EDITION</text>
+  <rect x="112" y="108" width="232" height="44" rx="18" fill="#151d27" stroke="#334455" stroke-width="2" />
+  <text x="141" y="136" fill="#f0d3a0" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="1.8">FULL EDITION</text>
 
   <text x="118" y="266" fill="#f4f1ea" font-family="Georgia, serif" font-size="72" font-weight="700">Trading</text>
   <text x="118" y="344" fill="#f4f1ea" font-family="Georgia, serif" font-size="72" font-weight="700">for the</text>
@@ -46,8 +46,8 @@
   <text x="154" y="1069" fill="#d9e0e9" font-family="Arial, sans-serif" font-size="24" font-weight="700">Madeesh P. Nissanka</text>
   <text x="118" y="1128" fill="#92a0b1" font-family="Arial, sans-serif" font-size="24">Educational only. Not financial advice.</text>
 
-  <rect x="544" y="1032" width="198" height="58" rx="24" fill="#f0d3a0" />
-  <text x="580" y="1068" fill="#0d1117" font-family="Arial, sans-serif" font-size="24" font-weight="800">DOWNLOADABLE</text>
+  <rect x="472" y="1030" width="270" height="60" rx="24" fill="#f0d3a0" />
+  <text x="510" y="1068" fill="#0d1117" font-family="Arial, sans-serif" font-size="20.5" font-weight="800" letter-spacing="0.4">DOWNLOAD PDF</text>
 
   <rect x="92" y="0" width="676" height="1220" fill="url(#flare)" opacity="0.28" />
 </svg>

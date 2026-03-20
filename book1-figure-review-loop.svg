@@ -1,34 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Review loop diagram">
-  <rect width="980" height="620" fill="#ffffff" />
-  <rect x="52" y="56" width="876" height="508" rx="24" fill="#ffffff" stroke="#d9d9d9" stroke-width="3" />
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
   <text x="88" y="118" fill="#1b1b1b" font-family="Georgia, serif" font-size="34" font-weight="700">The Review Loop</text>
   <text x="88" y="154" fill="#665f57" font-family="Arial, sans-serif" font-size="19">A beginner improves by closing the loop between</text>
   <text x="88" y="178" fill="#665f57" font-family="Arial, sans-serif" font-size="19">preparation, execution, review, and adjustment.</text>
 
   <g font-family="Arial, sans-serif" text-anchor="middle">
-    <rect x="410" y="206" width="160" height="72" rx="18" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2.5" />
+    <rect x="398" y="198" width="184" height="82" rx="18" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
     <text x="490" y="234" fill="#2a2014" font-size="22" font-weight="700">Prepare</text>
     <text x="490" y="260" fill="#5e5448" font-size="15.5">Levels, news, plan</text>
 
-    <rect x="680" y="294" width="160" height="72" rx="18" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2.5" />
+    <rect x="668" y="286" width="184" height="82" rx="18" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
     <text x="760" y="322" fill="#2a2014" font-size="22" font-weight="700">Execute</text>
     <text x="760" y="348" fill="#5e5448" font-size="15.5">Entry, stop, discipline</text>
 
-    <rect x="410" y="430" width="160" height="72" rx="18" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2.5" />
+    <rect x="398" y="422" width="184" height="82" rx="18" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
     <text x="490" y="458" fill="#2a2014" font-size="22" font-weight="700">Review</text>
-    <text x="490" y="484" fill="#5e5448" font-size="15.5">Screenshot, notes, tags</text>
+    <text x="490" y="484" fill="#5e5448" font-size="15.5">Screenshots, notes, tags</text>
 
-    <rect x="140" y="294" width="160" height="72" rx="18" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2.5" />
+    <rect x="128" y="286" width="184" height="82" rx="18" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
     <text x="220" y="322" fill="#2a2014" font-size="22" font-weight="700">Adjust</text>
-    <text x="220" y="348" fill="#5e5448" font-size="15.5">Rule changes, size changes</text>
+    <text x="220" y="348" fill="#5e5448" font-size="15.5">Rule and size updates</text>
   </g>
 
   <g fill="none" stroke="#b69255" stroke-width="5" stroke-linecap="round">
-    <path d="M564 242C628 252 686 280 727 318" />
-    <path d="M734 366C714 404 672 442 574 466" />
-    <path d="M410 466C318 444 258 408 226 366" />
-    <path d="M226 294C262 254 322 238 410 240" />
+    <path d="M582 238C626 248 654 262 668 300" />
+    <path d="M760 368C734 412 688 446 582 462" />
+    <path d="M398 462C314 444 254 412 214 368" />
+    <path d="M214 286C252 242 314 224 398 234" />
   </g>
 
-  <text x="88" y="540" fill="#5a5249" font-family="Arial, sans-serif" font-size="18">If the journal does not change future behavior, it is record-keeping, not review.</text>
+  <rect x="88" y="516" width="804" height="40" rx="14" fill="#f3ebdb" stroke="#d8ccb8" />
+  <text x="118" y="542" fill="#5a5249" font-family="Arial, sans-serif" font-size="17">If the journal does not change future behavior, it is record-keeping, not review.</text>
 </svg>

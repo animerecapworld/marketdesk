@@ -24,9 +24,9 @@
     <text x="176" y="522">price reached</text>
   </g>
 
-  <rect x="96" y="454" width="248" height="64" rx="16" fill="#f5ede0" stroke="#d8ccb8" />
-  <text x="118" y="482" fill="#5e5448" font-family="Arial, sans-serif" font-size="17">Long wick: price visited</text>
-  <text x="118" y="504" fill="#5e5448" font-family="Arial, sans-serif" font-size="17">the area but failed to stay.</text>
+  <rect x="96" y="404" width="252" height="66" rx="16" fill="#f5ede0" stroke="#d8ccb8" />
+  <text x="118" y="432" fill="#5e5448" font-family="Arial, sans-serif" font-size="16.5">Long wick: price visited</text>
+  <text x="118" y="454" fill="#5e5448" font-family="Arial, sans-serif" font-size="16.5">the area but failed to stay.</text>
 
   <rect x="628" y="446" width="248" height="72" rx="16" fill="#f5ede0" stroke="#d8ccb8" />
   <text x="650" y="474" fill="#5e5448" font-family="Arial, sans-serif" font-size="17">Large body: stronger move</text>

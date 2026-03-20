@@ -1334,6 +1334,18 @@ h3 {
   gap: 20px;
 }
 
+.book-cover .hero-actions {
+  align-items: stretch;
+}
+
+.book-cover .button {
+  min-height: 52px;
+  padding-inline: 20px;
+  line-height: 1.22;
+  text-align: center;
+  white-space: normal;
+}
+
 .book-cover::after,
 .book-disclaimer-page::after {
   position: absolute;

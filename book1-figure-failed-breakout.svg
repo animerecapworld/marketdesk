@@ -1,15 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Failed breakout figure">
-  <rect width="900" height="560" fill="#ffffff" />
+  <rect width="900" height="560" fill="#f7f3ec" />
+  <rect x="48" y="56" width="804" height="448" rx="22" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
   <g opacity="0.16" stroke="#b7ad9c">
     <path d="M80 80H840M80 160H840M80 240H840M80 320H840M80 400H840M80 480H840" />
     <path d="M80 80V500M180 80V500M280 80V500M380 80V500M480 80V500M580 80V500M680 80V500M780 80V500" />
   </g>
   <line x1="120" y1="248" x2="820" y2="248" stroke="#d4c19e" stroke-width="4" stroke-dasharray="12 10" />
   <path d="M102 426 162 388 222 342 282 304 342 284 402 252 462 224 522 206 582 194 642 236 702 276 762 320 822 354" fill="none" stroke="#3d5d66" stroke-width="5" />
-  <rect x="590" y="146" width="186" height="50" rx="14" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2" />
-  <text x="616" y="176" fill="#b79156" font-family="Arial, sans-serif" font-size="18">Break above</text>
-  <text x="616" y="198" fill="#5e5448" font-family="Arial, sans-serif" font-size="18">the level</text>
-  <rect x="628" y="360" width="198" height="50" rx="14" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2" />
-  <text x="652" y="390" fill="#5e5448" font-family="Arial, sans-serif" font-size="18">Failure back</text>
-  <text x="652" y="412" fill="#5e5448" font-family="Arial, sans-serif" font-size="18">inside range</text>
+  <rect x="570" y="132" width="220" height="66" rx="14" fill="#f7efe0" stroke="#d4c19e" stroke-width="2" />
+  <text x="596" y="163" fill="#b79156" font-family="Arial, sans-serif" font-size="17.5">Break above</text>
+  <text x="596" y="186" fill="#5e5448" font-family="Arial, sans-serif" font-size="17.5">the level</text>
+  <rect x="604" y="346" width="222" height="66" rx="14" fill="#f7efe0" stroke="#d4c19e" stroke-width="2" />
+  <text x="630" y="377" fill="#5e5448" font-family="Arial, sans-serif" font-size="17.5">Failure back</text>
+  <text x="630" y="400" fill="#5e5448" font-family="Arial, sans-serif" font-size="17.5">inside range</text>
 </svg>
