@@ -49,56 +49,60 @@
     .join(" ")
     .trim();
   const bookLede = shell.querySelector(".book-cover .hero-lede")?.textContent.trim() ?? "";
+  const skipIntro = shell.dataset.skipPaginationIntro === "true";
+  const compactVariant = shell.dataset.paginationVariant === "compact";
 
   if (!chapterSections.length || !firstChapter || !bookTitle) {
     return;
   }
 
-  const introFragment = document.createDocumentFragment();
-  introFragment.append(
-    createPage(
-      "Study Guide",
-      "How to use the full edition",
-      `
-        <p>${escapeHtml(
-          `This manual is built to be read like a working playbook rather than a quick article. Use the chapter pages for the main teaching material, then use the added workbook pages to slow the process down and make the ideas operational.`
-        )}</p>
-        <p>${escapeHtml(
-          `The objective is not just to finish ${bookTitle}. The objective is to turn the chapter ideas into repeatable decisions, better record-keeping, and stronger verification habits.`
-        )}</p>
-        ${renderList(
-          [
-            "Read the main chapter first and summarize the idea in your own words.",
-            "Pause after each chapter and complete the checklist and review pages.",
-            "Keep notes on any term, screen, or workflow that still feels unclear.",
-            "Re-check live platform, network, or market details against current official documentation before acting.",
-          ],
-          true
-        )}
-      `
-    )
-  );
-  introFragment.append(
-    createPage(
-      "Verification",
-      "Public version and source-check standard",
-      `
-        <p>${escapeHtml(
-          `Outside material was used as research input only. The final manual text is original and should still be verified against current official sources before public release or real-world use.`
-        )}</p>
-        ${renderList([
-          "Date-check time-sensitive facts before publishing or selling the manual.",
-          "Compare public claims against official documentation, regulator guidance, or primary-source education pages.",
-          "Keep a record of the sources used for each major claim so the public version can be double-checked later.",
-          "If a platform workflow, fee model, network label, or contract process changes, update the relevant chapter promptly.",
-        ])}
-        <p>${escapeHtml(
-          `This double-check standard is part of the product, not an afterthought. The cleaner the verification process, the safer the public-facing manual becomes.`
-        )}</p>
-      `
-    )
-  );
-  shell.insertBefore(introFragment, firstChapter);
+  if (!skipIntro) {
+    const introFragment = document.createDocumentFragment();
+    introFragment.append(
+      createPage(
+        "Study Guide",
+        "How to use the full edition",
+        `
+          <p>${escapeHtml(
+            `This manual is built to be read like a working playbook rather than a quick article. Use the chapter pages for the main teaching material, then use the added workbook pages to slow the process down and make the ideas operational.`
+          )}</p>
+          <p>${escapeHtml(
+            `The objective is not just to finish ${bookTitle}. The objective is to turn the chapter ideas into repeatable decisions, better record-keeping, and stronger verification habits.`
+          )}</p>
+          ${renderList(
+            [
+              "Read the main chapter first and summarize the idea in your own words.",
+              "Pause after each chapter and complete the checklist and review pages.",
+              "Keep notes on any term, screen, or workflow that still feels unclear.",
+              "Re-check live platform, network, or market details against current official documentation before acting.",
+            ],
+            true
+          )}
+        `
+      )
+    );
+    introFragment.append(
+      createPage(
+        "Verification",
+        "Public version and source-check standard",
+        `
+          <p>${escapeHtml(
+            `Outside material was used as research input only. The final manual text is original and should still be verified against current official sources before public release or real-world use.`
+          )}</p>
+          ${renderList([
+            "Date-check time-sensitive facts before publishing or selling the manual.",
+            "Compare public claims against official documentation, regulator guidance, or primary-source education pages.",
+            "Keep a record of the sources used for each major claim so the public version can be double-checked later.",
+            "If a platform workflow, fee model, network label, or contract process changes, update the relevant chapter promptly.",
+          ])}
+          <p>${escapeHtml(
+            `This double-check standard is part of the product, not an afterthought. The cleaner the verification process, the safer the public-facing manual becomes.`
+          )}</p>
+        `
+      )
+    );
+    shell.insertBefore(introFragment, firstChapter);
+  }
 
   chapterSections.forEach((section, index) => {
     const title = section.querySelector("h2")?.textContent.trim() ?? `Chapter ${index + 1}`;
@@ -241,24 +245,26 @@
       )
     );
 
-    insertAfter.push(
-      createPage(
-        `Chapter ${index + 1} Workbook`,
-        `${title}: verification notes`,
-        `
-          <p>${escapeHtml(
-            `Before a public version of this chapter is published or sold, the operational details should be checked one more time against official documentation or primary-source guidance.`
-          )}</p>
-          ${renderList([
-            `Mark the date when ${title.toLowerCase()} was last verified.`,
-            "Record the official source that confirmed the current workflow or concept.",
-            "Note any differences between the public explanation and the live product or market environment.",
-            "Write down what would require a chapter update in the future.",
-          ])}
-          ${renderNoteLines(8)}
-        `
-      )
-    );
+    if (!compactVariant) {
+      insertAfter.push(
+        createPage(
+          `Chapter ${index + 1} Workbook`,
+          `${title}: verification notes`,
+          `
+            <p>${escapeHtml(
+              `Before a public version of this chapter is published or sold, the operational details should be checked one more time against official documentation or primary-source guidance.`
+            )}</p>
+            ${renderList([
+              `Mark the date when ${title.toLowerCase()} was last verified.`,
+              "Record the official source that confirmed the current workflow or concept.",
+              "Note any differences between the public explanation and the live product or market environment.",
+              "Write down what would require a chapter update in the future.",
+            ])}
+            ${renderNoteLines(8)}
+          `
+        )
+      );
+    }
 
     let reference = section;
     insertAfter.forEach((page) => {
