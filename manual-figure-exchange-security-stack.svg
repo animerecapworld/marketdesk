@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Exchange security stack</title>
+  <desc id="desc">A dark themed diagram showing the layered controls before funding an exchange account: password, two-factor authentication, and withdrawal protection.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#101620" />
+      <stop offset="100%" stop-color="#090d14" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#171f2b" />
+      <stop offset="100%" stop-color="#0d131c" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  <rect width="960" height="540" rx="32" fill="url(#bg)" />
+  <text x="54" y="70" fill="#f3efe6" font-family="Manrope, sans-serif" font-size="24" font-weight="800">Exchange Security Stack</text>
+  <text x="54" y="102" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="16">Password - 2FA - withdrawal controls before first funding</text>
+  <g filter="url(#shadow)">
+    <rect x="138" y="152" width="684" height="88" rx="22" fill="url(#panel)" stroke="#304051" />
+    <text x="174" y="192" fill="#d2b27a" font-family="Manrope, sans-serif" font-size="14" font-weight="800">LAYER 1</text>
+    <text x="174" y="224" fill="#f3efe6" font-family="Cormorant Garamond, serif" font-size="28">Unique password and controlled email</text>
+    <text x="560" y="224" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="14">No reused credentials and no casual inbox security.</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="184" y="264" width="592" height="88" rx="22" fill="url(#panel)" stroke="#304051" />
+    <text x="220" y="304" fill="#74c6bb" font-family="Manrope, sans-serif" font-size="14" font-weight="800">LAYER 2</text>
+    <text x="220" y="336" fill="#f3efe6" font-family="Cormorant Garamond, serif" font-size="28">App-based 2FA and session review</text>
+    <text x="560" y="336" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="14">Protect the login path before assuming the account is ready.</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="232" y="376" width="496" height="88" rx="22" fill="url(#panel)" stroke="#304051" />
+    <text x="268" y="416" fill="#d2b27a" font-family="Manrope, sans-serif" font-size="14" font-weight="800">LAYER 3</text>
+    <text x="268" y="448" fill="#f3efe6" font-family="Cormorant Garamond, serif" font-size="28">Withdrawal whitelist and alert discipline</text>
+  </g>
+  <path d="M480 240 V264 M480 352 V376" stroke="#d2b27a" stroke-width="6" stroke-linecap="round" />
+</svg>

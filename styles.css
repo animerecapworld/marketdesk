@@ -403,6 +403,52 @@ main {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.profile-grid-home {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.bio-social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 2px;
+}
+
+.bio-social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 34px;
+  padding: 0 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.025);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition:
+    color 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease,
+    background 160ms ease;
+}
+
+.bio-social-link:hover {
+  color: var(--text);
+  border-color: rgba(210, 178, 122, 0.28);
+  background: rgba(210, 178, 122, 0.06);
+  transform: translateY(-1px);
+}
+
+.bio-social-link svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+  flex: 0 0 auto;
+}
+
 .profile-stat {
   display: grid;
   gap: 8px;
@@ -1523,6 +1569,185 @@ h3 {
   min-height: 250px;
 }
 
+.market-pulse-board {
+  display: grid;
+  gap: 18px;
+  height: 100%;
+  padding: 22px;
+  background:
+    radial-gradient(circle at top right, rgba(210, 178, 122, 0.18), transparent 28%),
+    radial-gradient(circle at bottom left, rgba(116, 198, 187, 0.14), transparent 26%),
+    linear-gradient(180deg, rgba(10, 14, 20, 0.98) 0%, rgba(6, 9, 14, 0.96) 100%);
+}
+
+.pulse-hero {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(0, 1.35fr) minmax(170px, 0.65fr);
+  align-items: start;
+}
+
+.pulse-hero-copy,
+.pulse-score-card,
+.pulse-strip-card {
+  display: grid;
+  gap: 8px;
+}
+
+.pulse-kicker,
+.pulse-score-label,
+.pulse-strip-label,
+.bio-hero-label {
+  color: var(--gold);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.pulse-hero-copy h4,
+.pulse-strip-card strong {
+  margin: 0;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  letter-spacing: -0.03em;
+}
+
+.pulse-hero-copy h4 {
+  font-size: clamp(1.5rem, 2.3vw, 2.25rem);
+  line-height: 0.98;
+}
+
+.pulse-hero-copy p,
+.pulse-strip-card p,
+.bio-hero-shell p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.pulse-score-card {
+  align-content: start;
+  min-height: 100%;
+  padding: 16px 18px;
+  border: 1px solid rgba(210, 178, 122, 0.24);
+  border-radius: 22px;
+  background:
+    linear-gradient(180deg, rgba(210, 178, 122, 0.12) 0%, rgba(210, 178, 122, 0.04) 100%);
+}
+
+.pulse-score-card strong {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(2rem, 3vw, 2.7rem);
+  line-height: 0.88;
+}
+
+.pulse-score-card small {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.pulse-chart-shell {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 24px;
+  background: rgba(5, 8, 13, 0.52);
+}
+
+.pulse-chart {
+  width: 100%;
+  height: auto;
+}
+
+.pulse-grid-lines line {
+  stroke: rgba(255, 255, 255, 0.08);
+  stroke-width: 1;
+  stroke-dasharray: 5 7;
+}
+
+.pulse-area {
+  stroke: none;
+}
+
+.pulse-area-gold {
+  fill: url(#pulseGoldFill);
+}
+
+.pulse-area-teal {
+  fill: url(#pulseTealFill);
+}
+
+.pulse-line {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 4;
+}
+
+.pulse-line-gold {
+  stroke: #d2b27a;
+}
+
+.pulse-line-teal {
+  stroke: #74c6bb;
+}
+
+.pulse-marker-row circle {
+  fill: #d9e0e9;
+  stroke: rgba(210, 178, 122, 0.54);
+  stroke-width: 3;
+}
+
+.pulse-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 18px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.pulse-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pulse-legend-line {
+  display: inline-block;
+  width: 22px;
+  height: 3px;
+  border-radius: 999px;
+}
+
+.pulse-legend-line-gold {
+  background: #d2b27a;
+}
+
+.pulse-legend-line-teal {
+  background: #74c6bb;
+}
+
+.pulse-strip {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.pulse-strip-card {
+  padding: 16px 16px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 20px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.015) 100%);
+}
+
+.pulse-strip-card strong {
+  font-size: 1.26rem;
+  line-height: 1.05;
+}
+
 .signal-card {
   align-content: start;
 }
@@ -1874,6 +2099,74 @@ h3 {
   line-height: 1.8;
 }
 
+.bio-hero-carousel {
+  min-height: 178px;
+  border: 1px solid rgba(210, 178, 122, 0.18);
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at top right, rgba(210, 178, 122, 0.16), transparent 30%),
+    linear-gradient(135deg, #101722 0%, #0d121b 100%);
+}
+
+.bio-hero-slide {
+  align-content: center;
+  padding: 24px 26px 44px;
+  transform: translateX(14px);
+}
+
+.bio-hero-slide-coverage {
+  background:
+    radial-gradient(circle at top left, rgba(210, 178, 122, 0.38), transparent 26%),
+    linear-gradient(135deg, #141b26 0%, #1f1610 100%);
+}
+
+.bio-hero-slide-style {
+  background:
+    radial-gradient(circle at top right, rgba(116, 198, 187, 0.3), transparent 28%),
+    linear-gradient(135deg, #101722 0%, #102127 100%);
+}
+
+.bio-hero-slide-formats {
+  background:
+    radial-gradient(circle at bottom left, rgba(130, 148, 196, 0.22), transparent 24%),
+    linear-gradient(135deg, #0f141c 0%, #1a2130 100%);
+}
+
+.bio-hero-slide::before {
+  inset: 22px auto auto 22px;
+  width: 84px;
+  height: 84px;
+  opacity: 0.34;
+}
+
+.bio-hero-slide::after {
+  right: 34px;
+  bottom: 30px;
+  width: 160px;
+  height: 160px;
+  opacity: 0.7;
+}
+
+.bio-hero-shell {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 8px;
+  max-width: 34rem;
+  padding: 18px 20px;
+  border: 1px solid rgba(243, 239, 230, 0.1);
+  border-radius: 20px;
+  background: rgba(10, 15, 22, 0.72);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.22);
+}
+
+.bio-hero-shell strong {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(1.6rem, 2.4vw, 2.15rem);
+  line-height: 0.98;
+  letter-spacing: -0.03em;
+}
+
 @keyframes wordFieldDrift {
   0%,
   100% {
@@ -2148,6 +2441,11 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .pulse-hero,
+  .pulse-strip {
+    grid-template-columns: 1fr;
+  }
+
   .hero-book-spotlight {
     grid-template-columns: 1fr;
   }
@@ -2211,6 +2509,26 @@ h3 {
   .book-page {
     min-height: auto;
     padding: 24px;
+  }
+
+  .market-pulse-board {
+    padding: 18px;
+  }
+
+  .pulse-chart-shell {
+    padding: 12px;
+  }
+
+  .bio-hero-carousel {
+    min-height: 200px;
+  }
+
+  .bio-hero-slide {
+    padding: 20px 20px 42px;
+  }
+
+  .bio-hero-shell {
+    padding: 16px 16px 18px;
   }
 }
 

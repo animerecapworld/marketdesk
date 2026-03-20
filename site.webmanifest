@@ -1,8 +1,8 @@
 {
   "name": "Madeesh P. Nissanka",
   "short_name": "MPN",
-  "start_url": "/marketdesk/",
-  "scope": "/marketdesk/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#06080d",
   "theme_color": "#06080d",

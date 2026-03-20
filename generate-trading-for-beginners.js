@@ -2,7 +2,31 @@ const fs = require("fs");
 const path = require("path");
 const PDFDocument = require("pdfkit");
 const SVGtoPDF = require("svg-to-pdfkit");
-const book = require("./books/trading-for-beginners-book");
+
+function loadBookModule() {
+  const candidates = [
+    path.join(__dirname, "books", "trading-for-beginners-book.js"),
+    path.join(__dirname, "..", "working-finance-site", "books", "trading-for-beginners-book.js"),
+    path.join(
+      __dirname,
+      "..",
+      "backups",
+      "marketdesk-backup-20260320-042029",
+      "1. Trial 01",
+      "books",
+      "trading-for-beginners-book.js"
+    ),
+  ];
+
+  const source = candidates.find((candidate) => fs.existsSync(candidate));
+  if (!source) {
+    throw new Error("Unable to locate trading-for-beginners-book.js in the current or archived workspaces.");
+  }
+
+  return require(source);
+}
+
+const book = loadBookModule();
 
 const ROOT = __dirname;
 const OUTPUT = path.join(ROOT, "madeesh-trading-for-the-slightly-confused-full-edition.pdf");

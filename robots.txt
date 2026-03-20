@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://animerecapworld.github.io/marketdesk/sitemap.xml
+Sitemap: https://madeeshmarkets.xyz/sitemap.xml

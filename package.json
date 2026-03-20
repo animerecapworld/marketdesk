@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "generate:book1": "NODE_PATH=../working-finance-site/node_modules node generate-trading-for-beginners.js",
+    "generate:books": "NODE_PATH=../working-finance-site/node_modules node generate-book-pdfs.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.97",
+    "jsdom": "^29.0.0",
+    "pdf-parse": "^2.4.5",
+    "pdfkit": "^0.18.0",
+    "playwright": "^1.58.2",
+    "svg-to-pdfkit": "^0.1.8"
+  }
+}

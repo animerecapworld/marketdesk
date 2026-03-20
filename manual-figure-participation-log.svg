@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Participation log board</title>
+  <desc id="desc">A dark themed participation log diagram showing how to track project, wallet, task, evidence, and follow-up status.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#101620" />
+      <stop offset="100%" stop-color="#090d14" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#171f2b" />
+      <stop offset="100%" stop-color="#0d131c" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  <rect width="960" height="540" rx="32" fill="url(#bg)" />
+  <text x="54" y="70" fill="#f3efe6" font-family="Manrope, sans-serif" font-size="24" font-weight="800">Participation Log Board</text>
+  <text x="54" y="102" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="16">Project - wallet - task - proof - review window</text>
+  <g filter="url(#shadow)">
+    <rect x="60" y="146" width="840" height="312" rx="26" fill="#121925" stroke="#304051" />
+    <rect x="88" y="178" width="784" height="42" rx="14" fill="#171f2b" stroke="#304051" />
+    <text x="110" y="205" fill="#d2b27a" font-family="Manrope, sans-serif" font-size="13" font-weight="800">PROJECT</text>
+    <text x="276" y="205" fill="#d2b27a" font-family="Manrope, sans-serif" font-size="13" font-weight="800">WALLET</text>
+    <text x="410" y="205" fill="#d2b27a" font-family="Manrope, sans-serif" font-size="13" font-weight="800">TASK</text>
+    <text x="578" y="205" fill="#d2b27a" font-family="Manrope, sans-serif" font-size="13" font-weight="800">PROOF</text>
+    <text x="732" y="205" fill="#d2b27a" font-family="Manrope, sans-serif" font-size="13" font-weight="800">FOLLOW-UP</text>
+    <g font-family="Manrope, sans-serif" font-size="14">
+      <text x="110" y="262" fill="#f3efe6">Project A</text>
+      <text x="276" y="262" fill="#a4adbc">test-wallet-01</text>
+      <text x="410" y="262" fill="#f3efe6">bridge task complete</text>
+      <text x="578" y="262" fill="#a4adbc">tx hash + screenshot</text>
+      <text x="732" y="262" fill="#74c6bb">review in 7 days</text>
+
+      <text x="110" y="322" fill="#f3efe6">Project B</text>
+      <text x="276" y="322" fill="#a4adbc">quest-wallet-02</text>
+      <text x="410" y="322" fill="#f3efe6">form + social task</text>
+      <text x="578" y="322" fill="#a4adbc">saved confirmation</text>
+      <text x="732" y="322" fill="#d2b27a">await update</text>
+
+      <text x="110" y="382" fill="#f3efe6">Project C</text>
+      <text x="276" y="382" fill="#a4adbc">test-wallet-01</text>
+      <text x="410" y="382" fill="#f3efe6">faucet claim</text>
+      <text x="578" y="382" fill="#a4adbc">claim screenshot</text>
+      <text x="732" y="382" fill="#74c6bb">done</text>
+    </g>
+    <path d="M96 286 H864 M96 346 H864" stroke="#2d3948" stroke-width="2" />
+  </g>
+</svg>

@@ -15,7 +15,7 @@
     <meta name="author" content="Madeesh P. Nissanka" />
     <meta name="robots" content="index,follow" />
     <meta name="theme-color" content="#06080d" />
-    <link rel="canonical" href="https://animerecapworld.github.io/marketdesk/" />
+    <link rel="canonical" href="https://madeeshmarkets.xyz/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Madeesh P. Nissanka | Official Markets Profile" />
@@ -23,8 +23,8 @@
       property="og:description"
       content="A high-end personal profile built around equities, crypto, futures, and live market intelligence."
     />
-    <meta property="og:url" content="https://animerecapworld.github.io/marketdesk/" />
-    <meta property="og:image" content="https://animerecapworld.github.io/marketdesk/social-preview.svg" />
+    <meta property="og:url" content="https://madeeshmarkets.xyz/" />
+    <meta property="og:image" content="https://madeeshmarkets.xyz/social-preview.svg" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Madeesh P. Nissanka | Official Markets Profile" />
@@ -32,7 +32,7 @@
       name="twitter:description"
       content="A high-end personal profile built around equities, crypto, futures, and live market intelligence."
     />
-    <meta name="twitter:image" content="https://animerecapworld.github.io/marketdesk/social-preview.svg" />
+    <meta name="twitter:image" content="https://madeeshmarkets.xyz/social-preview.svg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -49,8 +49,8 @@
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Madeesh P. Nissanka",
-        "url": "https://animerecapworld.github.io/marketdesk/",
-        "image": "https://animerecapworld.github.io/marketdesk/photo_2026-03-19_20-26-34.jpg",
+        "url": "https://madeeshmarkets.xyz/",
+        "image": "https://madeeshmarkets.xyz/photo_2026-03-19_20-26-34.jpg",
         "description": "Official website of Madeesh P. Nissanka, presenting a polished public profile centered on equities, crypto, futures, and macro market perspective.",
         "knowsAbout": ["Equities", "Cryptocurrency", "Futures", "Macro", "Market structure"]
       }
@@ -121,12 +121,12 @@
                 "symbols": [
                   { "proName": "BITSTAMP:BTCUSD", "description": "Bitcoin" },
                   { "proName": "BITSTAMP:ETHUSD", "description": "Ethereum" },
+                  { "proName": "COINBASE:XCNUSD", "description": "Onyxcoin" },
+                  { "proName": "MEXC:RIVERUSDT", "description": "River" },
                   { "proName": "NASDAQ:QQQ", "description": "Nasdaq 100" },
                   { "proName": "AMEX:SPY", "description": "S&P 500" },
                   { "proName": "AMEX:DIA", "description": "Dow Jones" },
-                  { "proName": "AMEX:IWM", "description": "Russell 2000" },
-                  { "proName": "CBOE:VIX", "description": "VIX" },
-                  { "proName": "NYMEX:CL1!", "description": "WTI Crude" }
+                  { "proName": "AMEX:IWM", "description": "Russell 2000" }
                 ],
                 "showSymbolLogo": true,
                 "colorTheme": "dark",
@@ -211,7 +211,7 @@
                 Presented with a restrained editorial tone suited to research notes, interviews,
                 market briefings, and long-form conversation.
               </p>
-              <div class="profile-grid" aria-label="Profile highlights">
+              <div class="profile-grid profile-grid-home" aria-label="Profile highlights">
                 <article class="profile-stat">
                   <span class="profile-label">Coverage</span>
                   <p class="profile-detail">Crypto, equities, futures, and macro liquidity context.</p>
@@ -461,46 +461,97 @@
                   <p class="section-tag">Market Pulse</p>
                   <h3>Nasdaq 100, crypto breadth, and sentiment</h3>
                 </div>
-                <span class="chip">Live pulse</span>
+                <span class="chip">Pulse board</span>
               </div>
               <div class="widget-frame widget-frame-market-focus">
-                <div class="tradingview-widget-container">
-                  <div class="tradingview-widget-container__widget"></div>
-                  <script
-                    type="text/javascript"
-                    src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js"
-                    async
-                  >
-                    {
-                      "symbols": [
-                        [
-                          "Nasdaq 100 proxy",
-                          "AMEX:QQQ|1D"
-                        ]
-                      ],
-                      "width": "100%",
-                      "height": "100%",
-                      "colorTheme": "dark",
-                      "isTransparent": true,
-                      "locale": "en",
-                      "showVolume": false,
-                      "showMA": false,
-                      "hideDateRanges": true,
-                      "hideMarketStatus": false,
-                      "hideSymbolLogo": false,
-                      "scalePosition": "right",
-                      "scaleMode": "Normal",
-                      "fontFamily": "Manrope, sans-serif",
-                      "fontSize": "10",
-                      "valuesTracking": "1",
-                      "changeMode": "price-and-percent",
-                      "chartType": "area",
-                      "lineWidth": 2,
-                      "lineColor": "#d2b27a",
-                      "topColor": "rgba(210, 178, 122, 0.26)",
-                      "bottomColor": "rgba(210, 178, 122, 0.03)"
-                    }
-                  </script>
+                <div class="market-pulse-board" aria-label="Illustrated market pulse board">
+                  <div class="pulse-hero">
+                    <div class="pulse-hero-copy">
+                      <span class="pulse-kicker">Cross-asset read</span>
+                      <h4>One clean view of growth-risk tone</h4>
+                      <p>
+                        Nasdaq leadership sits on top, with crypto breadth and sentiment acting as
+                        the confirmation layer underneath.
+                      </p>
+                    </div>
+                    <div class="pulse-score-card">
+                      <span class="pulse-score-label">Desk bias</span>
+                      <strong>Risk-on</strong>
+                      <small>as long as breadth stays constructive</small>
+                    </div>
+                  </div>
+                  <div class="pulse-chart-shell">
+                    <svg
+                      class="pulse-chart"
+                      viewBox="0 0 760 240"
+                      role="img"
+                      aria-labelledby="pulse-chart-title pulse-chart-desc"
+                    >
+                      <title id="pulse-chart-title">Illustrative market pulse chart</title>
+                      <desc id="pulse-chart-desc">
+                        A stylized chart showing a Nasdaq proxy line leading a teal crypto breadth
+                        line over the same session.
+                      </desc>
+                      <defs>
+                        <linearGradient id="pulseGoldFill" x1="0" y1="0" x2="0" y2="1">
+                          <stop offset="0%" stop-color="#d2b27a" stop-opacity="0.34"></stop>
+                          <stop offset="100%" stop-color="#d2b27a" stop-opacity="0.02"></stop>
+                        </linearGradient>
+                        <linearGradient id="pulseTealFill" x1="0" y1="0" x2="0" y2="1">
+                          <stop offset="0%" stop-color="#74c6bb" stop-opacity="0.22"></stop>
+                          <stop offset="100%" stop-color="#74c6bb" stop-opacity="0.01"></stop>
+                        </linearGradient>
+                      </defs>
+                      <g class="pulse-grid-lines" aria-hidden="true">
+                        <line x1="24" y1="28" x2="736" y2="28"></line>
+                        <line x1="24" y1="82" x2="736" y2="82"></line>
+                        <line x1="24" y1="136" x2="736" y2="136"></line>
+                        <line x1="24" y1="190" x2="736" y2="190"></line>
+                      </g>
+                      <path
+                        class="pulse-area pulse-area-gold"
+                        d="M24 180 L86 170 L148 156 L210 142 L272 118 L334 126 L396 110 L458 92 L520 98 L582 74 L644 84 L706 56 L736 62 L736 216 L24 216 Z"
+                      ></path>
+                      <path
+                        class="pulse-area pulse-area-teal"
+                        d="M24 194 L86 188 L148 182 L210 170 L272 152 L334 144 L396 138 L458 126 L520 118 L582 112 L644 106 L706 96 L736 92 L736 216 L24 216 Z"
+                      ></path>
+                      <path
+                        class="pulse-line pulse-line-gold"
+                        d="M24 180 L86 170 L148 156 L210 142 L272 118 L334 126 L396 110 L458 92 L520 98 L582 74 L644 84 L706 56 L736 62"
+                      ></path>
+                      <path
+                        class="pulse-line pulse-line-teal"
+                        d="M24 194 L86 188 L148 182 L210 170 L272 152 L334 144 L396 138 L458 126 L520 118 L582 112 L644 106 L706 96 L736 92"
+                      ></path>
+                      <g class="pulse-marker-row" aria-hidden="true">
+                        <circle cx="272" cy="118" r="5"></circle>
+                        <circle cx="582" cy="74" r="5"></circle>
+                        <circle cx="706" cy="56" r="5"></circle>
+                      </g>
+                    </svg>
+                    <div class="pulse-legend" aria-label="Pulse legend">
+                      <span><i class="pulse-legend-line pulse-legend-line-gold"></i>Nasdaq 100 proxy</span>
+                      <span><i class="pulse-legend-line pulse-legend-line-teal"></i>Crypto breadth</span>
+                    </div>
+                  </div>
+                  <div class="pulse-strip" aria-label="Pulse summary">
+                    <article class="pulse-strip-card">
+                      <span class="pulse-strip-label">Leadership</span>
+                      <strong>QQQ still driving</strong>
+                      <p>Large-cap growth remains the cleanest risk barometer.</p>
+                    </article>
+                    <article class="pulse-strip-card">
+                      <span class="pulse-strip-label">Participation</span>
+                      <strong>Alts joining</strong>
+                      <p>Broader crypto rotation matters more than bitcoin alone.</p>
+                    </article>
+                    <article class="pulse-strip-card">
+                      <span class="pulse-strip-label">Sentiment</span>
+                      <strong>Warm, not euphoric</strong>
+                      <p>Constructive conditions still need discipline and confirmation.</p>
+                    </article>
+                  </div>
                 </div>
               </div>
               <p class="widget-note">
