@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://animerecapworld.github.io/marketdesk/sitemap.xml

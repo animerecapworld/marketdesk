@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Wave and three drives overview">
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
+  <text x="88" y="118" fill="#1c1c1c" font-family="Georgia, serif" font-size="34" font-weight="700">Wave and Three Drives Overview</text>
+  <text x="88" y="154" fill="#6c645a" font-family="Arial, sans-serif" font-size="20">Broader theories can frame context, but they should never replace clear risk control.</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="96" y="220" width="372" height="232" rx="20" fill="#faf6ee" stroke="#d8ccb8" stroke-width="2.5" />
+    <path d="M126 398 178 338 230 358 282 276 334 300 386 220 438 248" fill="none" stroke="#2f5260" stroke-width="5" />
+    <text x="168" y="328" fill="#b79156" font-size="17">1</text>
+    <text x="220" y="378" fill="#b79156" font-size="17">2</text>
+    <text x="272" y="266" fill="#b79156" font-size="17">3</text>
+    <text x="324" y="320" fill="#b79156" font-size="17">4</text>
+    <text x="378" y="210" fill="#b79156" font-size="17">5</text>
+    <text x="224" y="428" fill="#5e5448" font-size="20">Simple impulse sequence</text>
+
+    <rect x="510" y="220" width="372" height="232" rx="20" fill="#faf6ee" stroke="#d8ccb8" stroke-width="2.5" />
+    <path d="M540 398 600 324 660 374 720 284 780 346 840 256" fill="none" stroke="#2f5260" stroke-width="5" />
+    <text x="596" y="310" fill="#b79156" font-size="17">Drive 1</text>
+    <text x="716" y="270" fill="#b79156" font-size="17">Drive 2</text>
+    <text x="808" y="242" fill="#b79156" font-size="17">Drive 3</text>
+    <text x="640" y="428" fill="#5e5448" font-size="20">Three drives idea</text>
+  </g>
+
+  <rect x="96" y="478" width="786" height="54" rx="14" fill="#f3ebdb" stroke="#d8ccb8" />
+  <text x="124" y="502" fill="#5f5648" font-family="Arial, sans-serif" font-size="15.5">If the count is unclear or keeps changing,</text>
+  <text x="124" y="522" fill="#5f5648" font-family="Arial, sans-serif" font-size="15.5">structure and invalidation should matter more than theory labels.</text>
+</svg>

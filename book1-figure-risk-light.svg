@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Risk management figure">
+  <rect width="900" height="560" fill="#f7f3ec" />
+  <g opacity="0.16" stroke="#b7ad9c">
+    <path d="M80 80H840M80 160H840M80 240H840M80 320H840M80 400H840M80 480H840" />
+    <path d="M80 80V500M180 80V500M280 80V500M380 80V500M480 80V500M580 80V500M680 80V500M780 80V500" />
+  </g>
+  <path d="M100 400 150 360 210 342 270 294 330 310 390 270 450 284 510 246 570 258 630 214 690 224 750 204 810 186" fill="none" stroke="#3d5d66" stroke-width="5" />
+  <circle cx="390" cy="270" r="8" fill="#b79255" />
+  <circle cx="330" cy="310" r="8" fill="#7d5740" />
+  <circle cx="570" cy="258" r="8" fill="#5b6a47" />
+  <line x1="390" y1="270" x2="390" y2="450" stroke="#b79255" stroke-dasharray="10 8" stroke-width="3" />
+  <line x1="330" y1="310" x2="330" y2="450" stroke="#7d5740" stroke-dasharray="10 8" stroke-width="3" />
+  <line x1="570" y1="258" x2="570" y2="450" stroke="#5b6a47" stroke-dasharray="10 8" stroke-width="3" />
+  <text x="298" y="472" fill="#5e5448" font-family="Arial, sans-serif" font-size="22">Stop</text>
+  <text x="364" y="472" fill="#5e5448" font-family="Arial, sans-serif" font-size="22">Entry</text>
+  <text x="536" y="472" fill="#5e5448" font-family="Arial, sans-serif" font-size="22">Target</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Capital buckets diagram">
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
+  <text x="88" y="118" fill="#1c1c1c" font-family="Georgia, serif" font-size="34" font-weight="700">Capital Buckets for a Beginner</text>
+  <text x="88" y="154" fill="#6c645a" font-family="Arial, sans-serif" font-size="20">The first risk decision is deciding which money should never be used for speculation.</text>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="96" y="236" width="236" height="182" rx="22" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="214" y="284" fill="#2a2014" font-size="24" font-weight="700">Essential Cash</text>
+    <text x="214" y="316" fill="#5e5448" font-size="17">Bills, emergency fund,</text>
+    <text x="214" y="340" fill="#5e5448" font-size="17">near-term obligations</text>
+    <text x="214" y="382" fill="#b79156" font-size="18">Not trading capital</text>
+
+    <rect x="372" y="236" width="236" height="182" rx="22" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="490" y="284" fill="#2a2014" font-size="24" font-weight="700">Long-Term Money</text>
+    <text x="490" y="316" fill="#5e5448" font-size="17">Investing horizon,</text>
+    <text x="490" y="340" fill="#5e5448" font-size="17">slower decisions</text>
+    <text x="490" y="382" fill="#b79156" font-size="18">Separate from trades</text>
+
+    <rect x="648" y="236" width="236" height="182" rx="22" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="766" y="284" fill="#2a2014" font-size="24" font-weight="700">Trading Capital</text>
+    <text x="766" y="316" fill="#5e5448" font-size="17">Risk-defined, sized,</text>
+    <text x="766" y="340" fill="#5e5448" font-size="17">fully reviewable</text>
+    <text x="766" y="382" fill="#b79156" font-size="18">Only this bucket trades</text>
+  </g>
+
+  <rect x="96" y="468" width="788" height="48" rx="14" fill="#f3ebdb" stroke="#d8ccb8" />
+  <text x="122" y="498" fill="#5f5648" font-family="Arial, sans-serif" font-size="17">When these buckets are mixed, risk management becomes emotional instead of structural.</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Trend continuation figure">
+  <rect width="900" height="560" fill="#f7f3ec" />
+  <g opacity="0.16" stroke="#b7ad9c">
+    <path d="M80 80H840M80 160H840M80 240H840M80 320H840M80 400H840M80 480H840" />
+    <path d="M80 80V500M180 80V500M280 80V500M380 80V500M480 80V500M580 80V500M680 80V500M780 80V500" />
+  </g>
+  <path d="M95 430 155 392 215 348 275 326 335 278 395 248 455 218 515 234 575 184 635 150 695 168 755 124 815 104" fill="none" stroke="#3d5d66" stroke-width="5" />
+  <path d="M273 326 315 350 356 336" fill="none" stroke="#b79255" stroke-width="4" />
+  <path d="M513 234 548 258 582 246" fill="none" stroke="#b79255" stroke-width="4" />
+  <text x="612" y="120" fill="#5e5448" font-family="Arial, sans-serif" font-size="24">Higher highs</text>
+  <text x="236" y="380" fill="#5e5448" font-family="Arial, sans-serif" font-size="24">Orderly pullback</text>
+</svg>

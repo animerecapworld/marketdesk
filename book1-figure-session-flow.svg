@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Session flow diagram">
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
+  <text x="88" y="118" fill="#1b1b1b" font-family="Georgia, serif" font-size="34" font-weight="700">Session and Liquidity Flow</text>
+  <text x="88" y="154" fill="#665f57" font-family="Arial, sans-serif" font-size="20">The same pattern can trade very differently when the session quality changes.</text>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="92" y="238" width="180" height="120" rx="22" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="182" y="286" fill="#2a2014" font-size="23" font-weight="700">Active Open</text>
+    <text x="182" y="318" fill="#5e5448" font-size="17">Faster tape</text>
+    <text x="182" y="342" fill="#5e5448" font-size="17">Cleaner liquidity</text>
+
+    <rect x="304" y="238" width="180" height="120" rx="22" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="394" y="286" fill="#2a2014" font-size="23" font-weight="700">Mid Session</text>
+    <text x="394" y="318" fill="#5e5448" font-size="17">Slower rotation</text>
+    <text x="394" y="342" fill="#5e5448" font-size="17">More fake starts</text>
+
+    <rect x="516" y="238" width="180" height="120" rx="22" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="606" y="286" fill="#2a2014" font-size="23" font-weight="700">Close / News</text>
+    <text x="606" y="318" fill="#5e5448" font-size="17">Speed returns</text>
+    <text x="606" y="342" fill="#5e5448" font-size="17">Risk widens</text>
+
+    <rect x="728" y="238" width="160" height="120" rx="22" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="808" y="286" fill="#2a2014" font-size="23" font-weight="700">Thin Hours</text>
+    <text x="808" y="318" fill="#5e5448" font-size="17">Wider spread</text>
+    <text x="808" y="342" fill="#5e5448" font-size="17">Poor fills</text>
+  </g>
+
+  <g fill="none" stroke="#b79156" stroke-width="6" stroke-linecap="round">
+    <path d="M272 298H304" />
+    <path d="M484 298H516" />
+    <path d="M696 298H728" />
+  </g>
+
+  <rect x="92" y="432" width="796" height="72" rx="18" fill="#f3ebdb" stroke="#d8ccb8" />
+  <text x="120" y="465" fill="#5f5648" font-family="Arial, sans-serif" font-size="18">Beginner rule: identify the session first, then decide whether the setup is still worth trading.</text>
+  <text x="120" y="492" fill="#5f5648" font-family="Arial, sans-serif" font-size="18">Liquidity quality changes entry quality, stop behavior, and the meaning of confirmation.</text>
+</svg>

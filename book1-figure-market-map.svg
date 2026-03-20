@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Beginner market map">
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="54" y="56" width="872" height="508" rx="24" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
+  <text x="88" y="118" fill="#1b1b1b" font-family="Georgia, serif" font-size="34" font-weight="700">Market Map for a Beginner</text>
+  <text x="88" y="154" fill="#665f57" font-family="Arial, sans-serif" font-size="20">Different vehicles behave differently even when the headline story sounds the same.</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="88" y="188" width="184" height="186" rx="20" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="112" y="238" fill="#2a2014" font-size="24" font-weight="700">Stocks</text>
+    <text x="112" y="270" fill="#5e5448" font-size="15.5">Single-company</text>
+    <text x="112" y="292" fill="#5e5448" font-size="15.5">exposure</text>
+    <text x="112" y="320" fill="#5e5448" font-size="15.5">Earnings and</text>
+    <text x="112" y="342" fill="#5e5448" font-size="15.5">company risk</text>
+    <text x="112" y="364" fill="#5e5448" font-size="15.5">Usually session-based</text>
+
+    <rect x="292" y="188" width="184" height="186" rx="20" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="316" y="238" fill="#2a2014" font-size="24" font-weight="700">ETFs</text>
+    <text x="316" y="270" fill="#5e5448" font-size="15.5">Basket-style</text>
+    <text x="316" y="292" fill="#5e5448" font-size="15.5">exposure</text>
+    <text x="316" y="320" fill="#5e5448" font-size="15.5">Broader</text>
+    <text x="316" y="342" fill="#5e5448" font-size="15.5">diversification</text>
+    <text x="316" y="364" fill="#5e5448" font-size="15.5">Often simpler early</text>
+
+    <rect x="496" y="188" width="184" height="186" rx="20" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="520" y="238" fill="#2a2014" font-size="24" font-weight="700">Crypto Spot</text>
+    <text x="520" y="270" fill="#5e5448" font-size="15.5">24/7 venue</text>
+    <text x="520" y="292" fill="#5e5448" font-size="15.5">structure</text>
+    <text x="520" y="320" fill="#5e5448" font-size="15.5">Narrative-heavy</text>
+    <text x="520" y="342" fill="#5e5448" font-size="15.5">flows</text>
+    <text x="520" y="364" fill="#5e5448" font-size="15.5">Higher volatility</text>
+
+    <rect x="700" y="188" width="184" height="186" rx="20" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="724" y="238" fill="#2a2014" font-size="24" font-weight="700">Futures</text>
+    <text x="724" y="270" fill="#5e5448" font-size="15.5">Standardized</text>
+    <text x="724" y="292" fill="#5e5448" font-size="15.5">contracts</text>
+    <text x="724" y="320" fill="#5e5448" font-size="15.5">Margin-driven</text>
+    <text x="724" y="342" fill="#5e5448" font-size="15.5">exposure</text>
+    <text x="724" y="364" fill="#5e5448" font-size="15.5">Fast leverage risk</text>
+  </g>
+
+  <path d="M180 384L180 462H790V384" fill="none" stroke="#cabba2" stroke-width="4" stroke-linecap="round" />
+  <circle cx="180" cy="384" r="8" fill="#b89963" />
+  <circle cx="385" cy="462" r="8" fill="#b89963" />
+  <circle cx="590" cy="462" r="8" fill="#b89963" />
+  <circle cx="790" cy="384" r="8" fill="#b89963" />
+
+  <rect x="262" y="390" width="446" height="56" rx="16" fill="#fffdfa" stroke="#ddd0b9" />
+  <text x="314" y="416" fill="#6a614f" font-family="Arial, sans-serif" font-size="17">One macro story can move all four,</text>
+  <text x="314" y="438" fill="#6a614f" font-family="Arial, sans-serif" font-size="17">but structure and risk still differ.</text>
+
+  <rect x="88" y="482" width="796" height="64" rx="14" fill="#f5ede0" stroke="#ddd0b9" />
+  <text x="112" y="510" fill="#564c3f" font-family="Arial, sans-serif" font-size="16">Beginner rule: learn the product, the session,</text>
+  <text x="112" y="532" fill="#564c3f" font-family="Arial, sans-serif" font-size="16">the liquidity profile, and the risk controls before learning setups.</text>
+</svg>

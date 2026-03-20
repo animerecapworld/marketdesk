@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 1220" role="img" aria-label="Trading for the Slightly Confused book cover">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1118" />
+      <stop offset="55%" stop-color="#121a24" />
+      <stop offset="100%" stop-color="#18232e" />
+    </linearGradient>
+    <linearGradient id="edge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0d3a0" />
+      <stop offset="100%" stop-color="#b79255" />
+    </linearGradient>
+    <linearGradient id="flare" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2f5b69" stop-opacity="0.0" />
+      <stop offset="50%" stop-color="#2f5b69" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#2f5b69" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="1220" rx="42" fill="url(#bg)" />
+  <rect x="28" y="28" width="804" height="1164" rx="34" fill="none" stroke="url(#edge)" stroke-width="4" />
+  <rect x="62" y="62" width="736" height="1096" rx="26" fill="none" stroke="#273342" stroke-width="2.5" />
+  <path d="M130 170H730" stroke="#b79255" stroke-width="6" stroke-linecap="round" />
+  <path d="M130 990H730" stroke="#b79255" stroke-width="6" stroke-linecap="round" />
+  <rect x="118" y="110" width="186" height="40" rx="18" fill="#151d27" stroke="#334455" stroke-width="2" />
+  <text x="151" y="136" fill="#f0d3a0" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">FULL EDITION</text>
+
+  <text x="118" y="266" fill="#f4f1ea" font-family="Georgia, serif" font-size="72" font-weight="700">Trading</text>
+  <text x="118" y="344" fill="#f4f1ea" font-family="Georgia, serif" font-size="72" font-weight="700">for the</text>
+  <text x="118" y="422" fill="#f4f1ea" font-family="Georgia, serif" font-size="72" font-weight="700">Slightly</text>
+  <text x="118" y="500" fill="#f4f1ea" font-family="Georgia, serif" font-size="72" font-weight="700">Confused</text>
+
+  <text x="122" y="572" fill="#b9c2cf" font-family="Arial, sans-serif" font-size="28">A plain-English starter manual for</text>
+  <text x="122" y="610" fill="#b9c2cf" font-family="Arial, sans-serif" font-size="28">stocks, crypto, futures, and risk discipline.</text>
+
+  <rect x="118" y="680" width="624" height="202" rx="28" fill="#111821" stroke="#2e3e51" stroke-width="2.5" />
+  <path d="M156 820C226 758 278 728 340 734C410 740 450 680 522 648C582 622 654 636 708 600" fill="none" stroke="#f0d3a0" stroke-width="8" stroke-linecap="round" />
+  <path d="M156 858C220 830 278 838 340 804C410 766 474 784 536 748C606 710 650 722 706 698" fill="none" stroke="#6bc8be" stroke-width="6" stroke-linecap="round" opacity="0.85" />
+  <rect x="150" y="724" width="168" height="44" rx="18" fill="#1a2430" stroke="#36495c" stroke-width="2" />
+  <text x="184" y="752" fill="#f0d3a0" font-family="Arial, sans-serif" font-size="22" font-weight="700">Structure</text>
+  <rect x="338" y="724" width="136" height="44" rx="18" fill="#1a2430" stroke="#36495c" stroke-width="2" />
+  <text x="372" y="752" fill="#f0d3a0" font-family="Arial, sans-serif" font-size="22" font-weight="700">Risk</text>
+  <rect x="494" y="724" width="212" height="44" rx="18" fill="#1a2430" stroke="#36495c" stroke-width="2" />
+  <text x="528" y="752" fill="#f0d3a0" font-family="Arial, sans-serif" font-size="22" font-weight="700">Execution</text>
+
+  <rect x="118" y="1034" width="388" height="56" rx="22" fill="#151d27" stroke="#334455" stroke-width="2" />
+  <text x="154" y="1069" fill="#d9e0e9" font-family="Arial, sans-serif" font-size="24" font-weight="700">Madeesh P. Nissanka</text>
+  <text x="118" y="1128" fill="#92a0b1" font-family="Arial, sans-serif" font-size="24">Educational only. Not financial advice.</text>
+
+  <rect x="544" y="1032" width="198" height="58" rx="24" fill="#f0d3a0" />
+  <text x="580" y="1068" fill="#0d1117" font-family="Arial, sans-serif" font-size="24" font-weight="800">DOWNLOADABLE</text>
+
+  <rect x="92" y="0" width="676" height="1220" fill="url(#flare)" opacity="0.28" />
+</svg>

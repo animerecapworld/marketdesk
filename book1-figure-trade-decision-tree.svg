@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Trade decision tree">
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
+  <text x="88" y="118" fill="#1c1c1c" font-family="Georgia, serif" font-size="34" font-weight="700">Trade Decision Tree</text>
+  <text x="88" y="154" fill="#6c645a" font-family="Arial, sans-serif" font-size="20">A beginner plan should make it obvious when the right decision is to stay flat.</text>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="368" y="184" width="244" height="54" rx="16" fill="#efe4cf" stroke="#d8ccb8" stroke-width="2.5" />
+    <text x="490" y="218" fill="#2a2014" font-size="22" font-weight="700">Is context clear?</text>
+
+    <rect x="146" y="302" width="250" height="72" rx="18" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="271" y="334" fill="#2a2014" font-size="21" font-weight="700">No</text>
+    <text x="271" y="360" fill="#5e5448" font-size="17">Stay flat and wait</text>
+
+    <rect x="584" y="302" width="250" height="72" rx="18" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="709" y="334" fill="#2a2014" font-size="21" font-weight="700">Yes</text>
+    <text x="709" y="360" fill="#5e5448" font-size="17">Check trigger and invalidation</text>
+
+    <rect x="584" y="430" width="250" height="72" rx="18" fill="#f5ede0" stroke="#d8ccb8" stroke-width="2.5" />
+    <text x="709" y="462" fill="#2a2014" font-size="21" font-weight="700">If risk fits size</text>
+    <text x="709" y="488" fill="#5e5448" font-size="17">Trade small and follow plan</text>
+  </g>
+
+  <g fill="none" stroke="#b79156" stroke-width="5" stroke-linecap="round">
+    <path d="M490 238V272" />
+    <path d="M490 272H271V302" />
+    <path d="M490 272H709V302" />
+    <path d="M709 374V430" />
+  </g>
+</svg>

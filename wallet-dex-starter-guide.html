@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wallet and DEX Starter Guide | Madeesh P. Nissanka</title>
+    <meta
+      name="description"
+      content="Beginner guide to browser wallets, seed phrase safety, DEX basics, and on-chain transaction hygiene."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#06080d" />
+    <link rel="canonical" href="https://animerecapworld.github.io/marketdesk/wallet-dex-starter-guide.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-bg"></div>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="topbar">
+          <a class="brand" href="index.html">
+            <span class="brand-name">Madeesh P. Nissanka</span>
+            <span class="brand-tag">Official markets profile</span>
+          </a>
+          <nav class="nav-links" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a href="markets.html">Market Desk</a>
+            <a href="bio.html">Bio</a>
+            <div class="nav-dropdown">
+              <a class="nav-dropdown-trigger is-active" href="manual.html">Products</a>
+              <div class="nav-flyout" aria-label="Product guides">
+                <p class="nav-flyout-label">Guide Library</p>
+                <p class="nav-flyout-copy">
+                  Beginner manuals, setup guides, and operational handbooks.
+                </p>
+                <div class="nav-flyout-grid">
+                  <a href="trading-for-beginners.html">
+                    <span class="nav-guide-title">Trading for the Slightly Confused</span>
+                    <span class="nav-guide-meta">Charts, trend, entries, exits, and risk</span>
+                  </a>
+                  <a href="wallet-dex-starter-guide.html">
+                    <span class="nav-guide-title">Wallet and DEX Starter Guide</span>
+                    <span class="nav-guide-meta">Wallet setup, swaps, approvals, and safety</span>
+                  </a>
+                  <a href="exchange-setup-guide.html">
+                    <span class="nav-guide-title">Exchange Setup Guide</span>
+                    <span class="nav-guide-meta">Onboarding, security, and transfer basics</span>
+                  </a>
+                  <a href="testnet-participation-guide.html">
+                    <span class="nav-guide-title">Testnet Participation Guide</span>
+                    <span class="nav-guide-meta">Faucets, wallets, bridges, and participation flow</span>
+                  </a>
+                  <a href="free-opportunities-guide.html">
+                    <span class="nav-guide-title">Free Opportunities Guide</span>
+                    <span class="nav-guide-meta">Quests, points, and participation systems</span>
+                  </a>
+                  <a href="risk-safety-handbook.html">
+                    <span class="nav-guide-title">Risk and Safety Handbook</span>
+                    <span class="nav-guide-meta">Scams, wallet hygiene, and approval defense</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="https://www.cmegroup.com/markets/cryptocurrencies/bitcoin/bitcoin.quotes.html" target="_blank" rel="noreferrer">CME BTC</a>
+            <a href="https://www.cmegroup.com/markets/equities/sp/micro-e-mini-sandp-500.quotes.html" target="_blank" rel="noreferrer">CME MES</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="page-intro">
+          <div class="panel lead-panel">
+            <p class="section-tag">Guide 02</p>
+            <h1>
+              <span>Wallet and DEX</span>
+              <span>Starter Guide.</span>
+            </h1>
+            <p>
+              A beginner guide to browser wallets, self-custody basics, DEX flow, token approvals,
+              and the operational habits that reduce avoidable mistakes on-chain.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#sample">Read Sample</a>
+              <a class="button button-secondary" href="manual.html#purchase">Full Release Soon</a>
+            </div>
+          </div>
+
+          <aside class="panel guide-purchase-card" id="full-version">
+            <p class="section-tag">Launch Status</p>
+            <h3>Preview live, full release staged</h3>
+            <p class="launch-note">
+              This guide remains visible as a preview while Book 1 leads the library and the next
+              paid releases are staged more carefully.
+            </p>
+            <div class="pricing-stack">
+              <div class="pricing-card">
+                <span class="price-badge">Preview</span>
+                <strong>Sample preview</strong>
+                <p>Wallet setup logic, DEX basics, approvals, and common beginner hazards.</p>
+              </div>
+              <div class="pricing-card">
+                <span class="price-badge">Coming soon</span>
+                <strong>Full release</strong>
+                <p>Expanded walkthroughs, screen-by-screen flows, safety checklists, and glossary pages.</p>
+              </div>
+            </div>
+            <div class="product-actions">
+              <a href="manual.html#catalog">View Product Library</a>
+              <a href="manual.html#purchase">Full Release Soon</a>
+            </div>
+          </aside>
+        </section>
+
+        <section class="panel resource-panel" id="sample">
+          <div class="section-heading">
+            <div>
+              <p class="section-tag">Sample Lessons</p>
+              <h2>How the free version reads</h2>
+            </div>
+            <p class="section-note">Shaped by official wallet and DeFi documentation, but written originally.</p>
+          </div>
+          <div class="bio-grid">
+            <article class="bio-card panel">
+              <p class="section-tag">Lesson 1</p>
+              <h3>What a browser wallet actually does</h3>
+              <p>
+                A wallet does not “hold” coins in the same way a bank app holds money. It manages
+                keys and permissions that allow you to interact with blockchain accounts. That is
+                why protecting your recovery phrase matters more than memorizing the user interface.
+              </p>
+            </article>
+            <article class="bio-card panel">
+              <p class="section-tag">Lesson 2</p>
+              <h3>DEX flow is simple, but approvals create risk</h3>
+              <p>
+                A decentralized exchange lets you swap tokens directly from your wallet, but many
+                first-time users do not understand approvals. Approvals give contracts permission to
+                move tokens, which is why revoking stale approvals and checking contract addresses is
+                part of safe wallet behavior.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel resource-panel">
+          <div class="section-heading">
+            <div>
+              <p class="section-tag">Sample Topics</p>
+              <h2>What the full guide expands</h2>
+            </div>
+            <p class="section-note">Intended for absolute beginners who need clear operating rules.</p>
+          </div>
+          <div class="chapter-grid">
+            <article class="chapter-card">
+              <span class="chapter-index">01</span>
+              <h3>Wallet setup</h3>
+              <p>Installation flow, wallet creation, backups, and device hygiene.</p>
+            </article>
+            <article class="chapter-card">
+              <span class="chapter-index">02</span>
+              <h3>Network basics</h3>
+              <p>Mainnet, testnet, gas fees, token standards, and why chain selection matters.</p>
+            </article>
+            <article class="chapter-card">
+              <span class="chapter-index">03</span>
+              <h3>DEX execution</h3>
+              <p>Quotes, slippage, token approvals, failed transactions, and fake token risk.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel resource-panel">
+          <div class="section-heading">
+            <div>
+              <p class="section-tag">Full Edition</p>
+              <h2>What the complete handbook adds</h2>
+            </div>
+            <p class="section-note">Designed to take a reader from zero setup to cleaner on-chain behavior.</p>
+          </div>
+          <div class="chapter-grid">
+            <article class="chapter-card">
+              <span class="chapter-index">04</span>
+              <h3>Transaction review</h3>
+              <p>Reading gas estimates, understanding network prompts, and avoiding rushed confirmations.</p>
+            </article>
+            <article class="chapter-card">
+              <span class="chapter-index">05</span>
+              <h3>Approval management</h3>
+              <p>When token approvals are required, how they become stale, and how to review them over time.</p>
+            </article>
+            <article class="chapter-card">
+              <span class="chapter-index">06</span>
+              <h3>Operational separation</h3>
+              <p>Why serious users separate long-term holdings, experimental wallets, and day-to-day interaction accounts.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel resource-panel">
+          <div class="section-heading">
+            <div>
+              <p class="section-tag">Execution Flow</p>
+              <h2>The baseline wallet checklist</h2>
+            </div>
+            <p class="section-note">The full guide uses a repeatable safety sequence before every connection.</p>
+          </div>
+          <ol class="document-steps">
+            <li>Confirm the domain from an official source before connecting the wallet.</li>
+            <li>Check the network, token symbol, and contract details before approving anything.</li>
+            <li>Review the prompt slowly and reject transactions that do not match the intended action.</li>
+            <li>Revisit approvals periodically and keep high-value holdings separated from active wallets.</li>
+          </ol>
+        </section>
+
+        <section class="panel legal-panel">
+          <p class="section-tag">Disclaimer</p>
+          <h3>Important legal and educational notice</h3>
+          <p>
+            Madeesh P. Nissanka is not a financial advisor, broker, or investment adviser. This
+            guide is educational only and is not financial, investment, tax, or legal advice.
+          </p>
+          <p>
+            No promise or guarantee of profit is made. Wallet use, token swaps, and on-chain
+            activity involve technical and financial risk.
+          </p>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Wallet and DEX Starter Guide.</p>
+        <p>Educational only. Not financial advice.</p>
+      </footer>
+    </div>
+  </body>
+</html>

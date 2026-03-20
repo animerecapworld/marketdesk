@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Social preview">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#05070b" />
+      <stop offset="100%" stop-color="#0e141d" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d3a0" />
+      <stop offset="100%" stop-color="#d2b27a" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="1040" cy="96" r="180" fill="#d2b27a" fill-opacity="0.08" />
+  <circle cx="180" cy="520" r="200" fill="#74c6bb" fill-opacity="0.08" />
+  <rect x="70" y="72" width="1060" height="486" rx="38" fill="#0d131c" stroke="rgba(243,239,230,0.14)" />
+  <text x="108" y="170" fill="#d2b27a" font-family="Manrope, Segoe UI, sans-serif" font-size="26" letter-spacing="6">
+    OFFICIAL MARKETS PROFILE
+  </text>
+  <text x="108" y="286" fill="#f3efe6" font-family="Cormorant Garamond, Georgia, serif" font-size="104" font-weight="700">
+    Madeesh P. Nissanka
+  </text>
+  <text x="112" y="374" fill="#a4adbc" font-family="Manrope, Segoe UI, sans-serif" font-size="34">
+    Premium personal site concept focused on equities, crypto, futures, and macro market context.
+  </text>
+  <rect x="844" y="144" width="202" height="202" rx="28" fill="url(#gold)" />
+  <text x="946" y="266" fill="#0d131c" font-family="Cormorant Garamond, Georgia, serif" font-size="64" font-weight="700" text-anchor="middle">
+    MPN
+  </text>
+  <rect x="846" y="388" width="246" height="82" rx="18" fill="#101722" stroke="rgba(243,239,230,0.14)" />
+  <text x="876" y="437" fill="#f3efe6" font-family="Manrope, Segoe UI, sans-serif" font-size="26">Stocks</text>
+  <text x="976" y="437" fill="#f3efe6" font-family="Manrope, Segoe UI, sans-serif" font-size="26">Crypto</text>
+  <text x="1058" y="437" fill="#f3efe6" font-family="Manrope, Segoe UI, sans-serif" font-size="26">Macro</text>
+</svg>

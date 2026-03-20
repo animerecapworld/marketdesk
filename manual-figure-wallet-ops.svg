@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Wallet operations and approval safety workflow</title>
+  <desc id="desc">A dark themed workflow diagram showing official source verification, wallet setup, approval review, and wallet separation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f1520" />
+      <stop offset="100%" stop-color="#090d14" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#151d29" />
+      <stop offset="100%" stop-color="#0d131c" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#d2b27a" />
+      <stop offset="100%" stop-color="#74c6bb" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  <rect width="960" height="540" rx="32" fill="url(#bg)" />
+  <text x="54" y="70" fill="#f3efe6" font-family="Manrope, sans-serif" font-size="24" font-weight="800">Wallet Operations and Safety Flow</text>
+  <text x="54" y="102" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="16">Official source - install - backup - approvals - wallet separation</text>
+  <g filter="url(#shadow)">
+    <rect x="54" y="144" width="180" height="116" rx="20" fill="url(#panel)" stroke="#2f3b4c" />
+    <text x="78" y="184" fill="#d2b27a" font-family="Manrope, sans-serif" font-size="14" font-weight="700">STEP 1</text>
+    <text x="78" y="214" fill="#f3efe6" font-family="Cormorant Garamond, serif" font-size="28" font-weight="600">Verify source</text>
+    <text x="78" y="244" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="14">Use the official help center</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="286" y="144" width="180" height="116" rx="20" fill="url(#panel)" stroke="#2f3b4c" />
+    <text x="310" y="184" fill="#d2b27a" font-family="Manrope, sans-serif" font-size="14" font-weight="700">STEP 2</text>
+    <text x="310" y="214" fill="#f3efe6" font-family="Cormorant Garamond, serif" font-size="28" font-weight="600">Create wallet</text>
+    <text x="310" y="244" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="14">Record the recovery phrase offline</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="518" y="144" width="180" height="116" rx="20" fill="url(#panel)" stroke="#2f3b4c" />
+    <text x="542" y="184" fill="#d2b27a" font-family="Manrope, sans-serif" font-size="14" font-weight="700">STEP 3</text>
+    <text x="542" y="214" fill="#f3efe6" font-family="Cormorant Garamond, serif" font-size="28" font-weight="600">Review prompt</text>
+    <text x="542" y="244" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="14">Check token, network, and contract</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="750" y="144" width="156" height="116" rx="20" fill="url(#panel)" stroke="#2f3b4c" />
+    <text x="774" y="184" fill="#d2b27a" font-family="Manrope, sans-serif" font-size="14" font-weight="700">STEP 4</text>
+    <text x="774" y="214" fill="#f3efe6" font-family="Cormorant Garamond, serif" font-size="28" font-weight="600">Separate</text>
+    <text x="774" y="244" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="14">Storage and active wallets</text>
+  </g>
+  <path d="M234 202 H286" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" />
+  <path d="M466 202 H518" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" />
+  <path d="M698 202 H750" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" />
+  <g filter="url(#shadow)">
+    <rect x="76" y="328" width="364" height="146" rx="24" fill="#101722" stroke="#314053" />
+    <text x="104" y="370" fill="#74c6bb" font-family="Manrope, sans-serif" font-size="14" font-weight="800">APPROVAL CHECK</text>
+    <text x="104" y="404" fill="#f3efe6" font-family="Cormorant Garamond, serif" font-size="30" font-weight="600">Do not normalize blind signing</text>
+    <text x="104" y="438" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="15">Every approval expands permissions. Slow down when the wallet prompt does not match the intended action.</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="490" y="328" width="394" height="146" rx="24" fill="#141b27" stroke="#314053" />
+    <text x="518" y="370" fill="#d2b27a" font-family="Manrope, sans-serif" font-size="14" font-weight="800">OPERATING MODEL</text>
+    <text x="518" y="404" fill="#f3efe6" font-family="Cormorant Garamond, serif" font-size="30" font-weight="600">Main wallet | active wallet | test wallet</text>
+    <text x="518" y="438" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="15">Use separation to limit the blast radius of one bad site, one bad approval, or one poor decision.</text>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Harmonic pattern overview">
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
+  <text x="88" y="118" fill="#1c1c1c" font-family="Georgia, serif" font-size="34" font-weight="700">ABCD and XABCD Basics</text>
+  <text x="88" y="154" fill="#6c645a" font-family="Arial, sans-serif" font-size="20">Harmonic labels try to organize proportional swings and completion zones.</text>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="108" y="224" width="330" height="212" rx="20" fill="#faf6ee" stroke="#d8ccb8" stroke-width="2.5" />
+    <path d="M140 376 214 274 290 340 366 238" fill="none" stroke="#2f5260" stroke-width="5" />
+    <text x="140" y="398" fill="#b79156" font-size="18">A</text>
+    <text x="214" y="256" fill="#b79156" font-size="18">B</text>
+    <text x="290" y="362" fill="#b79156" font-size="18">C</text>
+    <text x="366" y="220" fill="#b79156" font-size="18">D</text>
+    <text x="273" y="414" fill="#5e5448" font-size="20">ABCD</text>
+
+    <rect x="540" y="224" width="330" height="212" rx="20" fill="#faf6ee" stroke="#d8ccb8" stroke-width="2.5" />
+    <path d="M572 318 634 246 698 332 762 266 826 364" fill="none" stroke="#2f5260" stroke-width="5" />
+    <text x="572" y="340" fill="#b79156" font-size="18">X</text>
+    <text x="634" y="228" fill="#b79156" font-size="18">A</text>
+    <text x="698" y="354" fill="#b79156" font-size="18">B</text>
+    <text x="762" y="248" fill="#b79156" font-size="18">C</text>
+    <text x="826" y="386" fill="#b79156" font-size="18">D</text>
+    <text x="706" y="414" fill="#5e5448" font-size="20">XABCD</text>
+  </g>
+
+  <rect x="108" y="478" width="762" height="42" rx="14" fill="#f3ebdb" stroke="#d8ccb8" />
+  <text x="136" y="505" fill="#5f5648" font-family="Arial, sans-serif" font-size="17">The label is only useful if the completion area is clear enough to trade with defined risk.</text>
+</svg>

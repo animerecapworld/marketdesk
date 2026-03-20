@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Triangle patterns">
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
+  <text x="88" y="118" fill="#1c1c1c" font-family="Georgia, serif" font-size="34" font-weight="700">Triangle Pattern Basics</text>
+  <text x="88" y="154" fill="#6c645a" font-family="Arial, sans-serif" font-size="20">The pattern matters less than the question of where compression ends and failure begins.</text>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="104" y="220" width="240" height="220" rx="20" fill="#faf6ee" stroke="#d8ccb8" stroke-width="2.5" />
+    <path d="M138 382 214 258 310 382" fill="none" stroke="#2f5260" stroke-width="5" />
+    <text x="224" y="408" fill="#5e5448" font-size="20">Symmetrical</text>
+
+    <rect x="370" y="220" width="240" height="220" rx="20" fill="#faf6ee" stroke="#d8ccb8" stroke-width="2.5" />
+    <path d="M402 382 566 382M402 258 566 382" fill="none" stroke="#2f5260" stroke-width="5" />
+    <text x="490" y="408" fill="#5e5448" font-size="20">Ascending</text>
+
+    <rect x="636" y="220" width="240" height="220" rx="20" fill="#faf6ee" stroke="#d8ccb8" stroke-width="2.5" />
+    <path d="M668 258 832 258M668 258 832 382" fill="none" stroke="#2f5260" stroke-width="5" />
+    <text x="756" y="408" fill="#5e5448" font-size="20">Descending</text>
+  </g>
+
+  <rect x="104" y="480" width="772" height="40" rx="14" fill="#f3ebdb" stroke="#d8ccb8" />
+  <text x="132" y="506" fill="#5f5648" font-family="Arial, sans-serif" font-size="17">Compression alone is not a trade signal. Confirmation and a clean invalidation level still matter.</text>
+</svg>

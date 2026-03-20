@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Range breakout diagram">
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
+  <text x="88" y="118" fill="#1c1c1c" font-family="Georgia, serif" font-size="34" font-weight="700">Breakout Versus Failed Breakout</text>
+  <text x="88" y="154" fill="#6c645a" font-family="Arial, sans-serif" font-size="20">The real question is whether price accepts the new area after the break.</text>
+
+  <g opacity="0.18" stroke="#b8ab93">
+    <path d="M120 214H874M120 274H874M120 334H874M120 394H874M120 454H874" />
+    <path d="M120 214V480M200 214V480M280 214V480M360 214V480M440 214V480M520 214V480M600 214V480M680 214V480M760 214V480" />
+  </g>
+
+  <line x1="120" y1="314" x2="874" y2="314" stroke="#b79255" stroke-width="4" stroke-dasharray="10 8" />
+  <text x="126" y="298" fill="#6a5a42" font-family="Arial, sans-serif" font-size="18">Range high</text>
+
+  <path d="M130 410 200 388 270 392 340 360 410 370 480 332 550 338 620 282 690 286 760 252 830 258" fill="none" stroke="#3b5b63" stroke-width="5" />
+  <path d="M130 454 200 430 270 434 340 410 410 416 480 370 550 376 620 346 690 352 760 370 830 388" fill="none" stroke="#9b6a5b" stroke-width="5" />
+
+  <rect x="596" y="182" width="246" height="84" rx="18" fill="#f5ede0" stroke="#d8ccb8" />
+  <text x="618" y="214" fill="#5e5448" font-family="Arial, sans-serif" font-size="17">Clean breakout: price pushes above</text>
+  <text x="618" y="238" fill="#5e5448" font-family="Arial, sans-serif" font-size="17">the range and starts holding there.</text>
+
+  <rect x="596" y="404" width="246" height="84" rx="18" fill="#f5ede0" stroke="#d8ccb8" />
+  <text x="618" y="436" fill="#5e5448" font-family="Arial, sans-serif" font-size="17">Failed breakout: price visits above</text>
+  <text x="618" y="460" fill="#5e5448" font-family="Arial, sans-serif" font-size="17">the level and falls back inside.</text>
+</svg>

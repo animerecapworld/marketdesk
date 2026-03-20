@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Account safety stack">
+  <rect width="980" height="620" fill="#ffffff" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#ffffff" stroke="#d9d9d9" stroke-width="3" />
+  <text x="88" y="118" fill="#1c1c1c" font-family="Georgia, serif" font-size="34" font-weight="700">Account Safety Stack</text>
+  <text x="88" y="154" fill="#6c645a" font-family="Arial, sans-serif" font-size="20">Security problems can destroy capital before any market analysis gets a chance to work.</text>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="294" y="184" width="392" height="58" rx="16" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2.5" />
+    <text x="490" y="218" fill="#2a2014" font-size="22" font-weight="700">Verified entity and official URL</text>
+
+    <rect x="266" y="258" width="448" height="60" rx="16" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2.5" />
+    <text x="490" y="288" fill="#5e5448" font-size="20">Unique password and</text>
+    <text x="490" y="312" fill="#5e5448" font-size="20">authenticator-based 2FA</text>
+
+    <rect x="238" y="332" width="504" height="60" rx="16" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2.5" />
+    <text x="490" y="362" fill="#5e5448" font-size="20">Bookmarked links, updated device,</text>
+    <text x="490" y="386" fill="#5e5448" font-size="20">verified support</text>
+
+    <rect x="210" y="404" width="560" height="74" rx="16" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="2.5" />
+    <text x="490" y="434" fill="#5e5448" font-size="19">No seed sharing, no rushed transfers,</text>
+    <text x="490" y="458" fill="#5e5448" font-size="19">no trust in direct-message support</text>
+  </g>
+
+  <path d="M490 238V258M490 312V332M490 386V406" fill="none" stroke="#b79156" stroke-width="5" stroke-linecap="round" />
+</svg>

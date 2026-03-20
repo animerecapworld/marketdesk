@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Trend and pullback figure">
+  <rect width="900" height="560" fill="#0b1017" />
+  <g opacity="0.12" stroke="#f3efe6">
+    <path d="M80 80H840M80 160H840M80 240H840M80 320H840M80 400H840M80 480H840" />
+    <path d="M80 80V500M180 80V500M280 80V500M380 80V500M480 80V500M580 80V500M680 80V500M780 80V500" />
+  </g>
+  <path d="M90 420 150 398 210 364 270 378 330 324 390 346 450 278 510 296 570 226 630 252 690 186 750 204 810 146" fill="none" stroke="#74c6bb" stroke-width="6" />
+  <path d="M90 438 150 414 210 382 270 388 330 340 390 354 450 292 510 308 570 236 630 260 690 196 750 210 810 156" fill="none" stroke="#d2b27a" stroke-width="3" opacity="0.8" />
+  <circle cx="270" cy="378" r="9" fill="#f0d3a0" />
+  <circle cx="390" cy="346" r="9" fill="#f0d3a0" />
+  <circle cx="510" cy="296" r="9" fill="#f0d3a0" />
+  <text x="232" y="418" fill="#f3efe6" font-family="Manrope, sans-serif" font-size="24">Pullback</text>
+  <text x="518" y="340" fill="#f3efe6" font-family="Manrope, sans-serif" font-size="24">Trend continuation</text>
+  <text x="102" y="116" fill="#f3efe6" font-family="Manrope, sans-serif" font-size="24">Price</text>
+</svg>

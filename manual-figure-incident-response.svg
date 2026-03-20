@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Incident response workflow diagram</title>
+  <desc id="desc">A dark themed incident response diagram showing stop, verify, review approvals, move assets carefully, and document the event.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f1520" />
+      <stop offset="100%" stop-color="#090d14" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#171f2b" />
+      <stop offset="100%" stop-color="#0d131c" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  <rect width="960" height="540" rx="32" fill="url(#bg)" />
+  <text x="54" y="70" fill="#f3efe6" font-family="Manrope, sans-serif" font-size="24" font-weight="800">Incident Response Workflow</text>
+  <text x="54" y="102" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="16">Stop - verify - review approvals - move carefully - document the event</text>
+  <g filter="url(#shadow)">
+    <rect x="72" y="152" width="160" height="112" rx="22" fill="url(#panel)" stroke="#304051" />
+    <text x="96" y="190" fill="#d2b27a" font-family="Manrope, sans-serif" font-size="14" font-weight="800">STEP 1</text>
+    <text x="96" y="224" fill="#f3efe6" font-family="Cormorant Garamond, serif" font-size="30">Stop</text>
+    <text x="96" y="248" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="14">No more clicks</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="264" y="152" width="160" height="112" rx="22" fill="url(#panel)" stroke="#304051" />
+    <text x="288" y="190" fill="#74c6bb" font-family="Manrope, sans-serif" font-size="14" font-weight="800">STEP 2</text>
+    <text x="288" y="224" fill="#f3efe6" font-family="Cormorant Garamond, serif" font-size="30">Verify</text>
+    <text x="288" y="248" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="14">Domain and activity</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="456" y="152" width="188" height="112" rx="22" fill="url(#panel)" stroke="#304051" />
+    <text x="480" y="190" fill="#d2b27a" font-family="Manrope, sans-serif" font-size="14" font-weight="800">STEP 3</text>
+    <text x="480" y="224" fill="#f3efe6" font-family="Cormorant Garamond, serif" font-size="30">Review approvals</text>
+    <text x="480" y="248" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="14">Check permissions</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="676" y="152" width="212" height="112" rx="22" fill="url(#panel)" stroke="#304051" />
+    <text x="700" y="190" fill="#74c6bb" font-family="Manrope, sans-serif" font-size="14" font-weight="800">STEP 4</text>
+    <text x="700" y="224" fill="#f3efe6" font-family="Cormorant Garamond, serif" font-size="30">Move carefully</text>
+    <text x="700" y="248" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="14">Use a clean destination if needed</text>
+  </g>
+  <path d="M232 208 H264" stroke="#d2b27a" stroke-width="6" stroke-linecap="round" />
+  <path d="M424 208 H456" stroke="#74c6bb" stroke-width="6" stroke-linecap="round" />
+  <path d="M644 208 H676" stroke="#d2b27a" stroke-width="6" stroke-linecap="round" />
+  <g filter="url(#shadow)">
+    <rect x="138" y="332" width="684" height="136" rx="24" fill="#121925" stroke="#304051" />
+    <text x="170" y="372" fill="#d2b27a" font-family="Manrope, sans-serif" font-size="14" font-weight="800">FINAL STEP</text>
+    <text x="170" y="406" fill="#f3efe6" font-family="Cormorant Garamond, serif" font-size="30">Document what happened so the pattern becomes visible</text>
+    <text x="170" y="440" fill="#a4adbc" font-family="Manrope, sans-serif" font-size="15">Good notes turn a bad event into a cleaner future defense model.</text>
+  </g>
+</svg>

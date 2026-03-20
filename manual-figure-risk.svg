@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Risk reward figure">
+  <rect width="900" height="560" fill="#0b1017" />
+  <g opacity="0.12" stroke="#f3efe6">
+    <path d="M80 80H840M80 160H840M80 240H840M80 320H840M80 400H840M80 480H840" />
+    <path d="M80 80V500M180 80V500M280 80V500M380 80V500M480 80V500M580 80V500M680 80V500M780 80V500" />
+  </g>
+  <path d="M110 388 170 364 230 336 290 294 350 318 410 286 470 254 530 232 590 242 650 204 710 176 770 144" fill="none" stroke="#74c6bb" stroke-width="6" />
+  <rect x="500" y="180" width="170" height="70" fill="rgba(116,198,187,0.18)" stroke="#74c6bb" />
+  <rect x="500" y="250" width="170" height="110" fill="rgba(214,88,88,0.18)" stroke="#ff7272" />
+  <line x1="480" y1="250" x2="700" y2="250" stroke="#f0d3a0" stroke-width="4" />
+  <text x="688" y="255" fill="#f3efe6" font-family="Manrope, sans-serif" font-size="22">Entry</text>
+  <text x="520" y="223" fill="#f3efe6" font-family="Manrope, sans-serif" font-size="26">Target zone</text>
+  <text x="520" y="315" fill="#f3efe6" font-family="Manrope, sans-serif" font-size="26">Stop loss</text>
+  <text x="92" y="120" fill="#f3efe6" font-family="Manrope, sans-serif" font-size="24">Risk / reward framing</text>
+</svg>

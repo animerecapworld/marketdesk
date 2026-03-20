@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Broker due diligence checklist">
+  <rect width="980" height="620" fill="#f5f1e8" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#fffdf9" stroke="#d9ccb7" stroke-width="3" />
+  <text x="88" y="118" fill="#1c1c1c" font-family="Georgia, serif" font-size="34" font-weight="700">Broker Due Diligence Checklist</text>
+  <text x="88" y="154" fill="#6a6257" font-family="Arial, sans-serif" font-size="20">Before funding an account, verify the entity, the rules, and the operational risks.</text>
+
+  <g font-family="Arial, sans-serif" font-size="18">
+    <rect x="88" y="198" width="250" height="282" rx="20" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="112" y="236" fill="#2a2014" font-size="22" font-weight="700">Identity</text>
+    <text x="112" y="274" fill="#5e5448">Legal entity</text>
+    <text x="112" y="306" fill="#5e5448">Official domain</text>
+    <text x="112" y="338" fill="#5e5448">Registration check</text>
+    <text x="112" y="370" fill="#5e5448">Support channels</text>
+    <text x="112" y="402" fill="#5e5448">Jurisdiction</text>
+
+    <rect x="364" y="198" width="250" height="282" rx="20" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="388" y="236" fill="#2a2014" font-size="22" font-weight="700">Rules</text>
+    <text x="388" y="274" fill="#5e5448">Fees and costs</text>
+    <text x="388" y="306" fill="#5e5448">Margin policy</text>
+    <text x="388" y="338" fill="#5e5448">Order support</text>
+    <text x="388" y="370" fill="#5e5448">Product limits</text>
+    <text x="388" y="402" fill="#5e5448">Withdrawal policy</text>
+
+    <rect x="640" y="198" width="250" height="282" rx="20" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="664" y="236" fill="#2a2014" font-size="22" font-weight="700">Security</text>
+    <text x="664" y="274" fill="#5e5448">2FA enabled</text>
+    <text x="664" y="306" fill="#5e5448">Saved URLs</text>
+    <text x="664" y="338" fill="#5e5448">Device hygiene</text>
+    <text x="664" y="370" fill="#5e5448">No seed sharing</text>
+    <text x="664" y="402" fill="#5e5448">Verified support only</text>
+  </g>
+
+  <rect x="88" y="506" width="802" height="34" rx="12" fill="#f3ebdb" stroke="#d8ccb7" />
+  <text x="112" y="529" fill="#5f5649" font-family="Arial, sans-serif" font-size="18">A trustworthy-looking interface is not the same thing as a verified legal or operational relationship.</text>
+</svg>

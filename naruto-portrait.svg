@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 1040" role="img" aria-label="Temporary anime portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#111824" />
+      <stop offset="100%" stop-color="#0a1018" />
+    </linearGradient>
+    <linearGradient id="flare" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f3d98f" />
+      <stop offset="100%" stop-color="#de8d36" />
+    </linearGradient>
+  </defs>
+  <rect width="820" height="1040" fill="url(#bg)" />
+  <circle cx="620" cy="180" r="170" fill="#d2b27a" fill-opacity="0.14" />
+  <circle cx="132" cy="900" r="170" fill="#74c6bb" fill-opacity="0.12" />
+  <g transform="translate(118 84)">
+    <path d="M256 56 324 0l48 82 72-54 18 100 86-22-34 124 72 26-98 62 36 88-108-32-38 82-48-72-72 46-12-90-90 20 36-112-76-24 90-56-42-104 100 30Z" fill="url(#flare)" />
+    <path d="M144 354c0-136 110-246 246-246s246 110 246 246v154c0 136-110 246-246 246S144 644 144 508Z" fill="#f4d5a6" />
+    <path d="M184 364c40-94 126-150 212-150 92 0 174 56 212 150v-56c0-136-102-220-224-220-124 0-228 92-228 220Z" fill="#f0c54d" />
+    <rect x="210" y="252" width="360" height="74" rx="22" fill="#232d3a" />
+    <rect x="230" y="270" width="320" height="38" rx="16" fill="#4d5b6d" />
+    <circle cx="390" cy="290" r="20" fill="#d2b27a" />
+    <ellipse cx="302" cy="450" rx="28" ry="22" fill="#1d1f25" />
+    <ellipse cx="478" cy="450" rx="28" ry="22" fill="#1d1f25" />
+    <path d="M352 520c16 20 44 20 60 0" fill="none" stroke="#ca9f74" stroke-linecap="round" stroke-width="10" />
+    <path d="M234 432c38-22 82-24 124-8" fill="none" stroke="#cb8a3b" stroke-linecap="round" stroke-width="12" />
+    <path d="M424 424c42-18 86-16 120 10" fill="none" stroke="#cb8a3b" stroke-linecap="round" stroke-width="12" />
+    <path d="M226 510c32 16 54 16 84 0" fill="none" stroke="#c26b50" stroke-linecap="round" stroke-width="10" />
+    <path d="M470 510c32 16 54 16 84 0" fill="none" stroke="#c26b50" stroke-linecap="round" stroke-width="10" />
+    <path d="M144 792c40-120 138-176 246-176 110 0 206 56 246 176v164H144Z" fill="#e7802d" />
+    <path d="M244 836h288v120H244Z" fill="#171c24" />
+    <text x="390" y="948" fill="#f3efe6" font-family="Manrope, Segoe UI, sans-serif" font-size="34" text-anchor="middle" letter-spacing="4">
+      TEMPORARY PORTRAIT
+    </text>
+  </g>
+</svg>

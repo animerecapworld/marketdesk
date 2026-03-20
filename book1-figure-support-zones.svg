@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Support and resistance zones">
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
+  <text x="88" y="118" fill="#1b1b1b" font-family="Georgia, serif" font-size="34" font-weight="700">Support and Resistance as Zones</text>
+  <text x="88" y="154" fill="#665f57" font-family="Arial, sans-serif" font-size="20">Beginners usually improve when they stop drawing magical single-price lines and start reading areas.</text>
+
+  <rect x="110" y="208" width="760" height="248" rx="20" fill="#faf6ee" stroke="#d8ccb8" stroke-width="2.5" />
+  <rect x="160" y="252" width="660" height="54" rx="16" fill="#efe4cf" opacity="0.95" />
+  <rect x="160" y="366" width="660" height="54" rx="16" fill="#efe4cf" opacity="0.95" />
+  <path d="M150 392C206 356 250 328 312 314C384 298 434 310 492 292C544 276 594 236 646 250C708 268 746 320 810 328" fill="none" stroke="#2f5260" stroke-width="5" stroke-linecap="round" />
+
+  <g font-family="Arial, sans-serif">
+    <text x="180" y="286" fill="#5e5448" font-size="18">Upper resistance zone</text>
+    <text x="180" y="400" fill="#5e5448" font-size="18">Lower support zone</text>
+    <text x="696" y="226" fill="#b79156" font-size="16">Price can test inside</text>
+    <text x="696" y="246" fill="#b79156" font-size="16">the area.</text>
+    <text x="684" y="448" fill="#b79156" font-size="16">Rejection matters more</text>
+    <text x="684" y="468" fill="#b79156" font-size="16">than exact touch.</text>
+  </g>
+
+  <rect x="110" y="486" width="760" height="52" rx="14" fill="#f3ebdb" stroke="#d8ccb8" />
+  <text x="134" y="509" fill="#5f5648" font-family="Arial, sans-serif" font-size="16">Useful question: did price accept or reject the zone,</text>
+  <text x="134" y="529" fill="#5f5648" font-family="Arial, sans-serif" font-size="16">and where does the trade idea clearly fail?</text>
+</svg>

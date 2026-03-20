@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Fraud red flags">
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="52" y="56" width="876" height="508" rx="24" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
+  <text x="88" y="118" fill="#1c1c1c" font-family="Georgia, serif" font-size="34" font-weight="700">Fraud Red Flags</text>
+  <text x="88" y="154" fill="#6c645a" font-family="Arial, sans-serif" font-size="20">Scams usually promise certainty where real market participation still involves verification and risk.</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="96" y="214" width="368" height="104" rx="18" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="122" y="252" fill="#2a2014" font-size="20" font-weight="700">Guaranteed profit claims</text>
+    <text x="122" y="282" fill="#5e5448" font-size="16.5">If the pitch sounds certain, slow down.</text>
+
+    <rect x="516" y="214" width="368" height="104" rx="18" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="542" y="252" fill="#2a2014" font-size="20" font-weight="700">Urgent transfer requests</text>
+    <text x="542" y="282" fill="#5e5448" font-size="16.5">Pressure is a control tactic, not proof.</text>
+
+    <rect x="96" y="346" width="368" height="104" rx="18" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="122" y="384" fill="#2a2014" font-size="19.5" font-weight="700">Recovery-for-a-fee offers</text>
+    <text x="122" y="414" fill="#5e5448" font-size="16.5">Scammers often target prior victims again.</text>
+
+    <rect x="516" y="346" width="368" height="104" rx="18" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="542" y="380" fill="#2a2014" font-size="19" font-weight="700">Requests for keys or</text>
+    <text x="542" y="404" fill="#2a2014" font-size="19" font-weight="700">seed phrases</text>
+    <text x="542" y="430" fill="#5e5448" font-size="16.5">That is operational theft, not support.</text>
+  </g>
+
+  <rect x="96" y="490" width="788" height="42" rx="14" fill="#f3ebdb" stroke="#d8ccb8" />
+  <text x="122" y="516" fill="#5f5648" font-family="Arial, sans-serif" font-size="16.5">Only trust channels and entities you verified independently from official sources.</text>
+</svg>

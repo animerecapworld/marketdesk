@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market Desk | Madeesh P. Nissanka</title>
+    <meta
+      name="description"
+      content="Market desk for Madeesh P. Nissanka with live stock and crypto widgets, charts, and direct CME links."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#06080d" />
+    <link rel="canonical" href="https://animerecapworld.github.io/marketdesk/markets.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page page-markets">
+    <div class="site-bg"></div>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="topbar">
+          <a class="brand" href="index.html">
+            <span class="brand-name">Madeesh P. Nissanka</span>
+            <span class="brand-tag">Official markets profile</span>
+          </a>
+          <nav class="nav-links" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a class="is-active" href="markets.html">Market Desk</a>
+            <a href="bio.html">Bio</a>
+            <div class="nav-dropdown">
+              <a class="nav-dropdown-trigger" href="manual.html">Products</a>
+              <div class="nav-flyout" aria-label="Product guides">
+                <p class="nav-flyout-label">Guide Library</p>
+                <p class="nav-flyout-copy">
+                  Beginner manuals, setup guides, and operational handbooks.
+                </p>
+                <div class="nav-flyout-grid">
+                  <a href="trading-for-beginners.html">
+                    <span class="nav-guide-title">Trading for the Slightly Confused</span>
+                    <span class="nav-guide-meta">Charts, trend, entries, exits, and risk</span>
+                  </a>
+                  <a href="wallet-dex-starter-guide.html">
+                    <span class="nav-guide-title">Wallet and DEX Starter Guide</span>
+                    <span class="nav-guide-meta">Wallet setup, swaps, approvals, and safety</span>
+                  </a>
+                  <a href="exchange-setup-guide.html">
+                    <span class="nav-guide-title">Exchange Setup Guide</span>
+                    <span class="nav-guide-meta">Onboarding, security, and transfer basics</span>
+                  </a>
+                  <a href="testnet-participation-guide.html">
+                    <span class="nav-guide-title">Testnet Participation Guide</span>
+                    <span class="nav-guide-meta">Faucets, wallets, bridges, and participation flow</span>
+                  </a>
+                  <a href="free-opportunities-guide.html">
+                    <span class="nav-guide-title">Free Opportunities Guide</span>
+                    <span class="nav-guide-meta">Quests, points, and participation systems</span>
+                  </a>
+                  <a href="risk-safety-handbook.html">
+                    <span class="nav-guide-title">Risk and Safety Handbook</span>
+                    <span class="nav-guide-meta">Scams, wallet hygiene, and approval defense</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="https://www.cmegroup.com/markets/cryptocurrencies/bitcoin/bitcoin.quotes.html" target="_blank" rel="noreferrer">CME BTC</a>
+            <a href="https://www.cmegroup.com/markets/equities/sp/micro-e-mini-sandp-500.quotes.html" target="_blank" rel="noreferrer">CME MES</a>
+          </nav>
+        </div>
+
+        <div class="ticker-shell">
+          <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <script
+              type="text/javascript"
+              src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
+              async
+            >
+              {
+                "symbols": [
+                  { "proName": "BITSTAMP:BTCUSD", "description": "Bitcoin" },
+                  { "proName": "BITSTAMP:ETHUSD", "description": "Ethereum" },
+                  { "proName": "NASDAQ:QQQ", "description": "Nasdaq 100" },
+                  { "proName": "AMEX:SPY", "description": "S&P 500" },
+                  { "proName": "AMEX:DIA", "description": "Dow Jones" },
+                  { "proName": "AMEX:IWM", "description": "Russell 2000" },
+                  { "proName": "CBOE:VIX", "description": "VIX" },
+                  { "proName": "NYMEX:CL1!", "description": "WTI Crude" }
+                ],
+                "showSymbolLogo": true,
+                "colorTheme": "dark",
+                "isTransparent": true,
+                "displayMode": "adaptive",
+                "locale": "en"
+              }
+            </script>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="page-intro">
+          <div class="panel lead-panel">
+            <p class="section-tag">Market Desk</p>
+            <h1>
+              <span>Cross-asset</span>
+              <span>desk.</span>
+            </h1>
+            <p>
+              This page consolidates the live market layer of the profile: pricing references,
+              technical readouts, and headline velocity across digital assets and listed equities.
+              The layout is intentionally closer to a private monitor wall than a static web bio.
+            </p>
+          </div>
+
+          <aside class="panel list-card">
+            <p class="section-tag">Reference Venues</p>
+            <h3>Direct official routing</h3>
+            <p>
+              Institutional pricing references matter. These links route directly to official CME
+              product and quote pages rather than third-party summaries.
+            </p>
+            <div class="link-list">
+              <a href="https://www.cmegroup.com/markets/cryptocurrencies/bitcoin/bitcoin.quotes.html" target="_blank" rel="noreferrer">
+                <span>Bitcoin futures quotes</span>
+                <strong>Open</strong>
+              </a>
+              <a href="https://www.cmegroup.com/markets/equities/sp/micro-e-mini-sandp-500.quotes.html" target="_blank" rel="noreferrer">
+                <span>Micro E-mini S&amp;P 500</span>
+                <strong>Open</strong>
+              </a>
+              <a href="https://www.cmegroup.com/markets/cryptocurrencies/bitcoin/bitcoin.html" target="_blank" rel="noreferrer">
+                <span>CME bitcoin product page</span>
+                <strong>Open</strong>
+              </a>
+              <a href="https://www.cmegroup.com/markets/energy/crude-oil/light-sweet-crude.quotes.html" target="_blank" rel="noreferrer">
+                <span>WTI crude oil futures</span>
+                <strong>Open</strong>
+              </a>
+            </div>
+          </aside>
+        </section>
+
+        <section class="stats-grid">
+          <article class="panel stat-card">
+            <p class="section-tag">BTC Snapshot</p>
+            <h3>Symbol info</h3>
+            <div class="widget-frame widget-frame-short">
+              <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <script
+                  type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js"
+                  async
+                >
+                  {
+                    "symbol": "BITSTAMP:BTCUSD",
+                    "width": "100%",
+                    "locale": "en",
+                    "colorTheme": "dark",
+                    "isTransparent": true
+                  }
+                </script>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel stat-card">
+            <p class="section-tag">Nasdaq 100 Snapshot</p>
+            <h3>Symbol info</h3>
+            <div class="widget-frame widget-frame-short">
+              <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <script
+                  type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js"
+                  async
+                >
+                  {
+                    "symbol": "NASDAQ:QQQ",
+                    "width": "100%",
+                    "locale": "en",
+                    "colorTheme": "dark",
+                    "isTransparent": true
+                  }
+                </script>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel stat-card">
+            <p class="section-tag">WTI Snapshot</p>
+            <h3>Crude oil futures</h3>
+            <div class="widget-frame widget-frame-short">
+              <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <script
+                  type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js"
+                  async
+                >
+                  {
+                    "symbol": "NYMEX:CL1!",
+                    "width": "100%",
+                    "locale": "en",
+                    "colorTheme": "dark",
+                    "isTransparent": true
+                  }
+                </script>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="desk-grid">
+          <article class="panel desk-card">
+            <div class="widget-heading">
+              <div>
+                <p class="section-tag">Chart 01</p>
+                <h3>Bitcoin</h3>
+              </div>
+              <span class="chip">Interactive</span>
+            </div>
+            <div class="widget-frame widget-frame-chart">
+              <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <script
+                  type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js"
+                  async
+                >
+                  {
+                    "autosize": true,
+                    "symbol": "BITSTAMP:BTCUSD",
+                    "interval": "D",
+                    "timezone": "Etc/UTC",
+                    "theme": "dark",
+                    "style": "1",
+                    "locale": "en",
+                    "allow_symbol_change": true,
+                    "calendar": false,
+                    "support_host": "https://www.tradingview.com"
+                  }
+                </script>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel desk-card">
+            <div class="widget-heading">
+              <div>
+                <p class="section-tag">Technical</p>
+                <h3>Bitcoin readout</h3>
+              </div>
+              <span class="chip">Signal</span>
+            </div>
+            <div class="widget-frame widget-frame-analysis">
+              <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <script
+                  type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js"
+                  async
+                >
+                  {
+                    "interval": "15m",
+                    "width": "100%",
+                    "isTransparent": true,
+                    "height": "100%",
+                    "symbol": "BITSTAMP:BTCUSD",
+                    "showIntervalTabs": true,
+                    "displayMode": "single",
+                    "locale": "en",
+                    "colorTheme": "dark"
+                  }
+                </script>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="desk-grid">
+          <article class="panel desk-card">
+            <div class="widget-heading">
+              <div>
+                <p class="section-tag">Chart 02</p>
+                <h3>Nasdaq 100</h3>
+              </div>
+              <span class="chip">Interactive</span>
+            </div>
+            <div class="widget-frame widget-frame-chart">
+              <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <script
+                  type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js"
+                  async
+                >
+                  {
+                    "autosize": true,
+                    "symbol": "NASDAQ:QQQ",
+                    "interval": "D",
+                    "timezone": "Etc/UTC",
+                    "theme": "dark",
+                    "style": "1",
+                    "locale": "en",
+                    "allow_symbol_change": true,
+                    "calendar": false,
+                    "support_host": "https://www.tradingview.com"
+                  }
+                </script>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel desk-card">
+            <div class="widget-heading">
+              <div>
+                <p class="section-tag">Technical</p>
+                <h3>Nasdaq 100 readout</h3>
+              </div>
+              <span class="chip">Signal</span>
+            </div>
+            <div class="widget-frame widget-frame-analysis">
+              <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <script
+                  type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js"
+                  async
+                >
+                  {
+                    "interval": "15m",
+                    "width": "100%",
+                    "isTransparent": true,
+                    "height": "100%",
+                    "symbol": "NASDAQ:QQQ",
+                    "showIntervalTabs": true,
+                    "displayMode": "single",
+                    "locale": "en",
+                    "colorTheme": "dark"
+                  }
+                </script>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="desk-bottom-grid">
+          <article class="panel widget-panel">
+            <div class="widget-heading">
+              <div>
+                <p class="section-tag">Index Board</p>
+                <h3>US benchmark readout</h3>
+              </div>
+              <span class="chip">Live widget</span>
+            </div>
+            <div class="widget-frame widget-frame-medium">
+              <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <script
+                  type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js"
+                  async
+                >
+                  {
+                    "symbols": [
+                      ["AMEX:SPY|1D"],
+                      ["AMEX:QQQ|1D"],
+                      ["AMEX:DIA|1D"]
+                    ],
+                    "chartOnly": false,
+                    "width": "100%",
+                    "height": "100%",
+                    "locale": "en",
+                    "colorTheme": "dark",
+                    "autosize": true,
+                    "showVolume": false,
+                    "showMA": false,
+                    "hideDateRanges": false,
+                    "hideMarketStatus": true,
+                    "hideSymbolLogo": false,
+                    "scalePosition": "right",
+                    "scaleMode": "Normal",
+                    "fontSize": "10",
+                    "noTimeScale": false,
+                    "valuesTracking": "1",
+                    "changeMode": "price-and-percent",
+                    "chartType": "area",
+                    "lineWidth": 2,
+                    "lineType": 0,
+                    "isTransparent": true,
+                    "dateRanges": ["1d|1", "1m|1D", "3m|60", "12m|1D", "60m|1W", "all|1M"]
+                  }
+                </script>
+              </div>
+            </div>
+            <p class="widget-note">
+              A live benchmark layer covering broad U.S. equity proxies for the S&amp;P 500,
+              Nasdaq 100, and Dow-style tape in one panel.
+            </p>
+          </article>
+
+          <article class="panel widget-panel">
+            <div class="widget-heading">
+              <div>
+                <p class="section-tag">Gold Desk</p>
+                <h3>Gold proxy readout</h3>
+              </div>
+              <span class="chip">Live widget</span>
+            </div>
+            <div class="widget-frame widget-frame-medium">
+              <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <script
+                  type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js"
+                  async
+                >
+                  {
+                    "symbols": [
+                      [
+                        "Gold",
+                        "AMEX:GLD|1D"
+                      ]
+                    ],
+                    "chartOnly": false,
+                    "width": "100%",
+                    "height": "100%",
+                    "locale": "en",
+                    "colorTheme": "dark",
+                    "autosize": true,
+                    "showVolume": false,
+                    "showMA": false,
+                    "hideDateRanges": false,
+                    "hideMarketStatus": true,
+                    "hideSymbolLogo": false,
+                    "scalePosition": "right",
+                    "scaleMode": "Normal",
+                    "fontSize": "10",
+                    "valuesTracking": "1",
+                    "changeMode": "price-and-percent",
+                    "chartType": "area",
+                    "lineWidth": 2,
+                    "lineColor": "#74c6bb",
+                    "topColor": "rgba(116, 198, 187, 0.24)",
+                    "bottomColor": "rgba(116, 198, 187, 0.03)",
+                    "isTransparent": true,
+                    "dateRanges": ["1d|1", "1m|1D", "3m|60", "12m|1D", "60m|1W", "all|1M"]
+                  }
+                </script>
+              </div>
+            </div>
+            <p class="widget-note">
+              A cleaner live gold readout using a public gold ETF proxy instead of the heavier
+              futures widget.
+            </p>
+            <div class="link-list">
+              <a href="https://www.cmegroup.com/markets/metals/precious/gold.quotes.html" target="_blank" rel="noreferrer">
+                <span>Open official CME gold quotes</span>
+                <strong>Open</strong>
+              </a>
+              <a href="https://www.tradingview.com/symbols/AMEX-GLD/" target="_blank" rel="noreferrer">
+                <span>Open gold ETF symbol page</span>
+                <strong>Chart</strong>
+              </a>
+            </div>
+          </article>
+        </section>
+
+        <section class="panel legal-panel">
+          <p class="section-tag">Disclaimer</p>
+          <h3>Important legal and educational notice</h3>
+          <p>
+            Madeesh P. Nissanka is not a financial advisor, broker, or investment adviser. The
+            charts, commentary, links, and educational materials on this page are for informational
+            and educational purposes only.
+          </p>
+          <p>
+            Nothing here is a recommendation to buy, sell, or hold any asset, and no promise of
+            profit is made. Financial markets involve substantial risk, including the risk of loss.
+          </p>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Market desk for Madeesh P. Nissanka.</p>
+        <p>For education only. Not financial advice. CME links point to official benchmark pages.</p>
+      </footer>
+    </div>
+    <a class="floating-inquiry" href="bio.html#inquiry-desk">Ask A Question</a>
+  </body>
+</html>

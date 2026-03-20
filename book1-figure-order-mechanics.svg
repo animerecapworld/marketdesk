@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-label="Order mechanics diagram">
+  <rect width="980" height="620" fill="#f7f3ec" />
+  <rect x="46" y="52" width="888" height="516" rx="22" fill="#fffdfa" stroke="#d8ccb8" stroke-width="3" />
+  <text x="88" y="118" fill="#1c1c1c" font-family="Georgia, serif" font-size="34" font-weight="700">Order Mechanics</text>
+  <text x="88" y="154" fill="#6c645a" font-family="Arial, sans-serif" font-size="20">Execution quality depends on the gap between what you want and what the market can actually fill.</text>
+
+  <g font-family="Arial, sans-serif" font-size="19">
+    <rect x="88" y="210" width="348" height="252" rx="20" fill="#f7efe0" stroke="#d4c19e" stroke-width="2.5" />
+    <text x="114" y="250" fill="#2a2014" font-size="24" font-weight="700">Quote Stack</text>
+    <text x="114" y="286" fill="#5e5448">Ask 100.30</text>
+    <text x="114" y="320" fill="#5e5448">Ask 100.25</text>
+    <text x="114" y="354" fill="#5e5448">Bid 100.20</text>
+    <text x="114" y="388" fill="#5e5448">Bid 100.15</text>
+    <path d="M270 290H382" stroke="#b79255" stroke-width="3" stroke-dasharray="8 8" />
+    <text x="274" y="278" fill="#b79255" font-size="18">Spread</text>
+    <rect x="114" y="410" width="286" height="34" rx="10" fill="#f3ebdb" stroke="#d8ccb8" />
+    <text x="132" y="433" fill="#5e5448" font-size="16">Last trade may differ from your next fill.</text>
+
+    <rect x="484" y="206" width="362" height="264" rx="20" fill="#f4ebda" stroke="#d8ccb8" />
+    <text x="512" y="250" fill="#3d3426" font-size="24" font-weight="700">How common orders behave</text>
+    <text x="512" y="290" fill="#544b3e" font-size="18">Market: prioritizes speed.</text>
+    <text x="512" y="313" fill="#7a6f60" font-size="15">Execution is fast;</text>
+    <text x="512" y="333" fill="#7a6f60" font-size="15">exact price is not guaranteed.</text>
+    <text x="512" y="350" fill="#544b3e" font-size="18">Limit: prioritizes price.</text>
+    <text x="512" y="373" fill="#7a6f60" font-size="15">You control the worst acceptable</text>
+    <text x="512" y="393" fill="#7a6f60" font-size="15">price, not the fill.</text>
+    <text x="512" y="418" fill="#544b3e" font-size="17">Stop / stop-limit: trigger first.</text>
+    <text x="512" y="438" fill="#7a6f60" font-size="14">Stops activate later and can still</text>
+    <text x="512" y="456" fill="#7a6f60" font-size="14">execute poorly in fast conditions.</text>
+  </g>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="88" y="490" width="758" height="48" rx="12" fill="#fff7e6" stroke="#e1c98f" />
+    <text x="112" y="512" fill="#7a5b20" font-size="16">A stop price is a trigger, not a guarantee.</text>
+    <text x="112" y="531" fill="#7a5b20" font-size="16">In fast markets the fill can differ materially from the trigger.</text>
+  </g>
+</svg>
