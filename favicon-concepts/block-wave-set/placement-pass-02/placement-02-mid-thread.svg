@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Mid thread monogram">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d131c" />
+      <stop offset="100%" stop-color="#1b2736" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0d3a0" />
+      <stop offset="100%" stop-color="#b79156" />
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#74c6bb" />
+      <stop offset="100%" stop-color="#f0d3a0" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#bg)" />
+  <path d="M64 18 100 38V90L64 110 28 90V38Z" fill="none" stroke="url(#gold)" stroke-width="5" />
+  <path d="M64 26 92 42V86L64 102 36 86V42Z" fill="none" stroke="#2d3949" stroke-width="2.2" />
+  <path d="M35 86V42H46L64 63L82 42H93V86H81V60L64 79L47 60V86Z" fill="#f7f2e7" />
+  <path d="M24 82C35 78 43 74 52 74C62 74 68 80 77 80C87 80 95 70 104 62" fill="none" stroke="url(#wave)" stroke-width="4.3" stroke-linecap="round" />
+</svg>

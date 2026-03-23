@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Market crest monogram">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1017" />
+      <stop offset="100%" stop-color="#162130" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0d3a0" />
+      <stop offset="100%" stop-color="#b79156" />
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#76c8bd" />
+      <stop offset="100%" stop-color="#efd09b" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#bg)" />
+  <path d="M64 17 98 37V91L64 111 30 91V37Z" fill="none" stroke="url(#gold)" stroke-width="4.3" />
+  <path d="M64 25 90 40V88L64 103 38 88V40Z" fill="none" stroke="#2c3948" stroke-width="2" />
+  <path d="M39 84V45H48L64 61 80 45H89V84H79V60L64 74 49 60V84Z" fill="#f7f2e7" />
+  <path d="M24 95C36 88 44 82 53 82C62 82 67 87 76 87C86 87 93 78 104 70" fill="none" stroke="url(#wave)" stroke-width="4.2" stroke-linecap="round" />
+  <circle cx="104" cy="70" r="3.5" fill="#f0d3a0" />
+</svg>

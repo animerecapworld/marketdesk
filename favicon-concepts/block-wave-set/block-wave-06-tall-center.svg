@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Tall center wave monogram">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1118" />
+      <stop offset="100%" stop-color="#1a2535" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#efd19c" />
+      <stop offset="100%" stop-color="#b89258" />
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#74c6bb" />
+      <stop offset="100%" stop-color="#f0d3a0" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#bg)" />
+  <path d="M64 16 99 36V92L64 112 29 92V36Z" fill="none" stroke="url(#gold)" stroke-width="4.2" />
+  <g fill="none" stroke="#f7f2e7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 86V54" />
+    <path d="M64 86V36" />
+    <path d="M88 86V54" />
+    <path d="M40 54 64 76 88 54" />
+  </g>
+  <path d="M22 95C35 88 44 81 53 81C62 81 67 87 76 87C86 87 94 77 106 68" fill="none" stroke="url(#wave)" stroke-width="4.1" stroke-linecap="round" />
+</svg>

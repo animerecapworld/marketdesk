@@ -495,7 +495,7 @@ async function writePdf(book) {
   for (let index = 0; index < range.count; index += 1) {
     doc.switchToPage(index);
     const x = doc.page.margins.left;
-    const y = doc.page.height - doc.page.margins.bottom + 8;
+    const y = doc.page.height - 30;
     const width = doc.page.width - doc.page.margins.left - doc.page.margins.right;
 
     doc.save();
@@ -504,8 +504,8 @@ async function writePdf(book) {
     doc.restore();
 
     doc.fillColor("#666666").font("Helvetica").fontSize(8.2);
-    doc.text(FOOTER_TEXT, x, y, { width: width - 54, align: "left" });
-    doc.text(`Page ${index + 1} of ${range.count}`, x, y, { width, align: "right" });
+    doc.text(FOOTER_TEXT, x, y, { width: width - 54, align: "left", lineBreak: false });
+    doc.text(`Page ${index + 1} of ${range.count}`, x, y, { width, align: "right", lineBreak: false });
   }
 
   doc.end();

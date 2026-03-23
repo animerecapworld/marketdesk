@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Nested ribbon hex monogram">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d131c" />
+      <stop offset="100%" stop-color="#1b2736" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0d3a0" />
+      <stop offset="100%" stop-color="#b79156" />
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#74c6bb" />
+      <stop offset="100%" stop-color="#f0d3a0" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#bg)" />
+  <path d="M64 14 104 36V92L64 114 24 92V36Z" fill="none" stroke="url(#gold)" stroke-width="4.8" />
+  <path d="M64 28 90 43V85L64 100 38 85V43Z" fill="none" stroke="#2d3949" stroke-width="2.2" />
+  <path d="M36 84V44H46L64 63L82 44H92V84H81V59L64 77L47 59V84Z" fill="#f7f2e7" />
+  <path d="M38 84C38 84 40 80 46 80C51 80 53 84 56 84C59 84 61 77 64 77C67 77 69 84 72 84C75 84 77 80 82 80C88 80 90 85 90 85" fill="none" stroke="url(#wave)" stroke-width="4.15" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M29 90C38 86 43 82 48 80" fill="none" stroke="url(#wave)" stroke-width="4.15" stroke-linecap="round" />
+  <path d="M90 85C95 84 99 79 104 72" fill="none" stroke="url(#wave)" stroke-width="4.15" stroke-linecap="round" />
+</svg>

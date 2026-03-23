@@ -1,7 +1,8 @@
 {
   "scripts": {
+    "generate:book1:web": "NODE_PATH=../working-finance-site/node_modules node generate-trading-for-beginners-html.js",
     "generate:book1": "NODE_PATH=../working-finance-site/node_modules node generate-trading-for-beginners.js",
-    "generate:books": "NODE_PATH=../working-finance-site/node_modules node generate-book-pdfs.js"
+    "generate:books": "NODE_PATH=../working-finance-site/node_modules node generate-book-pdfs.js && NODE_PATH=../working-finance-site/node_modules node generate-trading-for-beginners.js"
   },
   "dependencies": {
     "@napi-rs/canvas": "^0.1.97",

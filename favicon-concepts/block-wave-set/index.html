@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block + Wave Concepts</title>
+    <style>
+      :root {
+        --bg: #081019;
+        --panel: #0e1622;
+        --line: rgba(215, 191, 148, 0.16);
+        --text: #f4efe4;
+        --muted: #97a6b6;
+        --gold: #d7b77d;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 42px 24px 56px;
+        background:
+          radial-gradient(circle at top left, rgba(116, 198, 187, 0.08), transparent 24%),
+          radial-gradient(circle at bottom right, rgba(215, 183, 125, 0.1), transparent 22%),
+          var(--bg);
+        color: var(--text);
+        font-family: Manrope, Arial, sans-serif;
+      }
+
+      main {
+        max-width: 1080px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 4vw, 3rem);
+        line-height: 1.05;
+      }
+
+      .lede {
+        max-width: 760px;
+        margin-top: 14px;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 18px;
+        margin-top: 32px;
+      }
+
+      .card {
+        padding: 20px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(14, 22, 33, 0.98), rgba(9, 15, 23, 0.98));
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+      }
+
+      .preview {
+        display: grid;
+        place-items: center;
+        min-height: 166px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+
+      .preview img {
+        width: 116px;
+        height: 116px;
+      }
+
+      .label {
+        margin-top: 14px;
+        color: var(--gold);
+        font-size: 0.75rem;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      .name {
+        margin-top: 8px;
+        font-size: 1.04rem;
+        font-weight: 700;
+      }
+
+      .copy {
+        margin-top: 6px;
+        color: var(--muted);
+        line-height: 1.55;
+        font-size: 0.92rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Block + Wave Hybrids</h1>
+      <p class="lede">
+        Variants built from the original <strong>Block Core</strong> idea, but with the cleaner
+        rising wave from <strong>Wave M</strong> replacing the old horizontal accent.
+      </p>
+
+      <section class="grid">
+        <article class="card">
+          <div class="preview"><img src="../concept-04-block-core.svg" alt="Updated block core wave icon" /></div>
+          <p class="label">Hybrid 01</p>
+          <p class="name">Block Core Wave</p>
+          <p class="copy">Your requested direct hybrid: the original block frame with the wave replacing the line.</p>
+        </article>
+
+        <article class="card">
+          <div class="preview"><img src="block-wave-02-double-hex.svg" alt="Double hex wave icon" /></div>
+          <p class="label">Hybrid 02</p>
+          <p class="name">Double Hex Wave</p>
+          <p class="copy">Sharper and more premium. Best if you want a stronger crypto-frame feel.</p>
+        </article>
+
+        <article class="card">
+          <div class="preview"><img src="block-wave-03-core-rise.svg" alt="Core rise icon" /></div>
+          <p class="label">Hybrid 03</p>
+          <p class="name">Core Rise</p>
+          <p class="copy">A cleaner block monogram with the wave lifting into the top-right corner.</p>
+        </article>
+
+        <article class="card">
+          <div class="preview"><img src="block-wave-04-frame-ribbon.svg" alt="Frame ribbon icon" /></div>
+          <p class="label">Hybrid 04</p>
+          <p class="name">Frame Ribbon</p>
+          <p class="copy">Softer wave treatment. Feels more premium editorial than crypto-tech.</p>
+        </article>
+
+        <article class="card">
+          <div class="preview"><img src="block-wave-05-market-crest.svg" alt="Market crest icon" /></div>
+          <p class="label">Hybrid 05</p>
+          <p class="name">Market Crest</p>
+          <p class="copy">The strongest emblem version. More balanced if you want a formal brand mark.</p>
+        </article>
+
+        <article class="card">
+          <div class="preview"><img src="block-wave-06-tall-center.svg" alt="Tall center icon" /></div>
+          <p class="label">Hybrid 06</p>
+          <p class="name">Tall Center</p>
+          <p class="copy">Shorter side bars, taller center bar, and a disciplined rising wave underneath.</p>
+        </article>
+
+        <article class="card">
+          <div class="preview"><img src="block-wave-07-nested-ribbon-hex.svg" alt="Nested ribbon hex icon" /></div>
+          <p class="label">Hybrid 07</p>
+          <p class="name">Nested Ribbon Hex</p>
+          <p class="copy">Your new combined direction: larger untouched gold hex outside, smaller inner hex inside, and the ribbon only grazing the inner frame while tying into the lower M structure.</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

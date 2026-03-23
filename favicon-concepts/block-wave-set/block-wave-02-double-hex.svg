@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Double hex wave monogram">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1017" />
+      <stop offset="100%" stop-color="#182332" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#efd19c" />
+      <stop offset="100%" stop-color="#b89258" />
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#74c6bb" />
+      <stop offset="100%" stop-color="#f0d3a0" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#bg)" />
+  <path d="M64 15 100 36V92L64 113 28 92V36Z" fill="none" stroke="url(#gold)" stroke-width="4.5" />
+  <path d="M64 24 92 40V88L64 104 36 88V40Z" fill="none" stroke="#2d3949" stroke-width="2.2" />
+  <path d="M37 86V43H47L64 61 81 43H91V86H80V59L64 76 48 59V86Z" fill="#f7f2e7" />
+  <path d="M22 94C35 86 44 78 53 78C63 78 69 84 78 84C88 84 95 74 106 68" fill="none" stroke="url(#wave)" stroke-width="4.5" stroke-linecap="round" />
+</svg>
